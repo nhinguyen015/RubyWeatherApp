@@ -1,46 +1,215 @@
-<h1 style = "color:white">Home#index</h1> <!--header for the example-->
-<p>Different text</p> <!--header for the example-->
-
 <!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
 <style>
+
+ body {
+  /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0dzWNcw9WLz0m8SViWWQ2j2nJ9RsSeCLL0w&usqp=CAU'); */
+  font-family: Andy;
+
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height:100vh;
+  background: white;
+} 
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+  position: relative;
+  /* opacity: 0.65;                 later goal: add opacity for background *aesthetic purposes*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-1 {
+  background-image: url("https://www.drelseys.com/wp-content/uploads/2018/09/cat-meme-blog-001.jpg");
+  margin: 0px 0px;
+  height: 1000px;
+}
+
+.bgimg-2 {
+  background-image: url("https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("https://img.freepik.com/premium-photo/glowing-advertisement-signs-billboards-city-with-light-reflection-wet-street_163855-226.jpg?w=2000");
+  min-height: 400px;
+}
+
+.bgimg-4 {
+  background-image: url("https://images.unsplash.com/photo-1618340338709-027f57b98a16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y2l0eSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
+  min-height: 400px;
+}
+
+.bgimg-5 {
+  background-image: url("https://i.pinimg.com/originals/3a/6c/a1/3a6ca13dd85afd2d3391fa1e17d682f1.jpg");
+  min-height: 400px;
+}
+
+ .flip-card {
+  background-color: green; /* make sure to change this to transparent at the end*/
+  margin: 100px 640px; 
+  width: 400px;
+  height: 561px;
+  z-index:1;
+  display:absolute;
+
+  perspective:1000px;
+} 
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  /* width: 40%; */
-  border-radius:10px;
-  margin:0 auto;
-  width:40vw;
-  min-height:70vh;
-  background-color:white;
+  border-radius: 10px;
+  /* NEEDS TO CENTER CARD AUTOMATICALLY :PRAY: */
+  background: white;
+  text-align: center;
+
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+
+  z-index:2;
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(100,255,255);
+}
+
+.card.is-flipped {
+  transform: translateX(50%) rotateY(180deg);
 }
 
 .container {
   padding: 2px 16px;
 }
- body {
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0dzWNcw9WLz0m8SViWWQ2j2nJ9RsSeCLL0w&usqp=CAU');
-} 
 
+.flip-card:hover .card {
+  transform: rotateY(180deg); 
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; 
+}
+
+.flip-card-front {
+}
+
+.flip-card-back {
+  transform: rotateY(-180deg);
+}
+
+</s
 </style>
 </head>
+
+<%
+=begin%>
+ Here's the HTML portion 
+<%
+=end%>
 <body>
+<h1 style = "color:white">Home#index</h1> <!--header for the example-->
+<p>Different text</p> <!--header for the example-->
 
-<h2>Card</h2>
 
-<div class="card">
-  <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="alternatetext" style = "width:100%"> <!--image -->
-  <div class="container">
-    <h4><b>John Doe</b></h4> 
-    <p>Architect & Engineer</p> 
+<div class="bgimg-1" > 
+
+<!--Card display City 1-->
+<div class="flip-card">
+  <div class="card">
+    <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+      <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+      <div class="container">
+        <h4><b>city 1</b></h4> 
+        <p>Architect & Engineer</p> 
+      </div>
+    </div>
+    <div class="flip-card-back">
+      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+    </div>
   </div>
+</div>
+</div>
+
+<div class="bgimg-2" > 
+
+<!--Card display City 2-->
+<div class="flip-card">
+  <div class="card">
+    <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+      <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+      <div class="container">
+        <h4><b>city 2</b></h4> 
+        <p>Architect & Engineer</p> 
+      </div>
+    </div>
+    <div class="flip-card-back">
+      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="bgimg-3" > 
+
+<!--Card display City 3-->
+<div class="flip-card">
+  <div class="card">
+    <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+      <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+      <div class="container">
+        <h4><b>city 3</b></h4> 
+        <p>Architect & Engineer</p> 
+      </div>
+    </div>
+    <div class="flip-card-back">
+      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="bgimg-4" > 
+
+<!--Card display City 4-->
+<div class="flip-card">
+  <div class="card">
+    <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+      <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+      <div class="container">
+        <h4><b>city 4</b></h4> 
+        <p>Architect & Engineer</p> 
+      </div>
+    </div>
+    <div class="flip-card-back">
+      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="bgimg-5" > 
+
+<!--Card display City 5-->
+<div class="flip-card">
+  <div class="card">
+    <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+      <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+      <div class="container">
+        <h4><b>city 5</b></h4> 
+        <p>Architect & Engineer</p> 
+      </div>
+    </div>
+    <div class="flip-card-back">
+      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+    </div>
+  </div>
+</div>
 </div>
 
 </body>
