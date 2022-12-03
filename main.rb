@@ -1,6 +1,14 @@
-require_relative "backend"
-require_relative "frontend"
+require_relative "backend.rb"
+require_relative "frontend.rb"
 
-puts "Hello world"
 
-Frontend.testing
+def run_app()
+    puts "Hello world"
+
+    query = DataQuery.new
+    query.pull_data("Pomona", 1234)
+    
+    Frontend.testing
+end
+
+run_app()
