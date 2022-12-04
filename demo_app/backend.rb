@@ -6,7 +6,11 @@ require 'json'
 class DataQuery
     def initialize()
         file = File.open("APIKEY.txt")
-        @key = file.read
+        @key = "M4TY4973SRXVGEK575KCRFQ6Q"
+        @date = ""
+        @desc = ""
+        @max_temp = ""
+        @min_temp = ""
     end
 
     def pull_data(location, date)
@@ -30,15 +34,31 @@ class DataQuery
                 weather_tmax = days["tempmax"]
                 weather_tmin = days["tempmin"]
          
-                puts "Forecast for date: #{weather_date}"
-                puts " General conditions: #{weather_desc}"
-                puts " The high temperature will be #{weather_tmax}"
-                puts " The low temperature will be #{weather_tmin}"
+                @date = weather_date
+                @desc = weather_desc
+                @max_temp = weather_tmax
+                @min_temp = weather_tmin
             end
         rescue # optionally: `rescue Exception => ex`
             puts "error occured during query"
         ensure # will always get executed
             #puts 'Always gets executed.'
-        end 
+        end
+    end
+
+    def get_date()
+        return @date
+    end
+
+    def get_desc()
+        return @desc
+    end
+
+    def get_max()
+        return @max_temp
+    end
+
+    def get_min()
+        return @min_temp
     end
 end
