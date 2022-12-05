@@ -3,6 +3,15 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+<%require_relative "RubyWeatherApp\\demo_app\\backend.rb"%><!--change path according to where backend is located for you-->
+
+<%temperature = 66%>
+<%city = nil%>
+/* <%date = DataQuery.new%>
+<%date.pull_data("Paris",1234)%> */
+<%date = Date.now.strftime("Today's date is %MM/%DD/%YYYY")>
+<%time = Time.now.strftime("Current time is %H:%M:%S")%>
+<%humidity = 0%>
 
  body {
   /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0dzWNcw9WLz0m8SViWWQ2j2nJ9RsSeCLL0w&usqp=CAU'); */
@@ -125,8 +134,31 @@
     <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
       <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
       <div class="container">
-        <h4><b>city 1</b></h4> 
-        <p>Architect & Engineer</p> 
+        <%if city!=nil%>
+        <h4><b><%=city%></b></h4> 
+      <%else%>
+        No data available
+      <%end%>
+        <p></p>
+          <div class = "Temperature">
+            <%if temperature!=nil%>
+              Temperature is <%=temperature%>
+            <%else%>
+              No temperature info to report 
+            <%end%>
+            <p></p>
+            <%if date!=nil%>
+              Date today is <%=date%> 
+            <%else%>
+              Valid Date Required
+            <%end%>
+            <p></p>
+            <%if time!=nil%>
+              <%=time%> 
+            <%else%>
+              Time not detected
+            <%end%>
+            <p></p>
       </div>
     </div>
     <div class="flip-card-back">
