@@ -84,7 +84,7 @@ class DataQuery
                 if desc.include? "Rain" or (desc.include? "rain" and desc.include? "chance")
                     pokeCode = "Piplup"
                 elsif desc.include? "Rain" or desc.include? "rain"
-                    pokeCode = "Piplup"
+                    pokeCode = "Blastoise"
                 elsif (max_temp > 90)
                     pokeCode = "Charizard"  
                 elsif (max_temp > 80)
