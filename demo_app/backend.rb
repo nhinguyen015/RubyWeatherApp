@@ -76,7 +76,7 @@ class DataQuery
             file.write("\n")
             for key in data.keys
                 #print(key)
-                file.write(key + "," + data[key][0] + "," + data[key][0] + "," + data[key][0])
+                file.write(key + "," + data[key][0] + "," + data[key][1] + "," + data[key][2])
                 file.write("\n")
             end
         end
