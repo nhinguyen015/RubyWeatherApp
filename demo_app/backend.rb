@@ -44,7 +44,6 @@ class DataQuery
                 @max_temp = weather_tmax
                 @min_temp = weather_tmin
             end
-
             writeToCSV("weather.csv", entries)
 
         rescue # optionally: `rescue Exception => ex`
@@ -74,9 +73,8 @@ class DataQuery
         File.open(fileName, 'w') do |file|
             file.write("Date,Description,Max Temp,Min Temp")
             file.write("\n")
-            for key in data.keys
-                #print(key)
-                file.write(key + "," + data[key][0] + "," + data[key][1] + "," + data[key][2])
+            for map in data
+                file.write(map[0], ",", map[1][0], ",", map[1][1], ",", map[1][2])
                 file.write("\n")
             end
         end
