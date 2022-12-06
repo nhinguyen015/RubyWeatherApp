@@ -3,19 +3,37 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-<%require_relative "main.rb"%>
+
 <%require_relative "backend.rb"%>
 <!--change path according to where backend is located for you-->
-<%demo_var = DataQuery.new%>
-<%date= Time.now.strftime("%m/%d/%Y")%> 
-<%demo_var.pull_data("Corona", date)%>
-<%demo_var.get_date%>
+<%city1 = DataQuery.new%>
+<%city2 = DataQuery.new%>
+<%city3 = DataQuery.new%>
+<%city4 = DataQuery.new%>
+<%city5 = DataQuery.new%>
 
-<%temperature = demo_var.get_min%>
-<%city = nil%>
+<%date= Time.now.strftime("%m/%d/%Y")%> 
+
+<%city1.pull_data("Pomona", date)%>
+<%city2.pull_data("Miami", date)%>
+<%city3.pull_data("New-York", date)%>
+<%city4.pull_data("Newark", date)%>
+<%city5.pull_data("Anchorage", date)%>
+/* <%city1.get_date%> */
+
+<%tempPom = city1.get_min%>
+<%tempMi = city2.get_max%>
+<%tempNY = city3.get_min%>
+<%tempNJ = city4.get_min%>
+<%tempAnch= city5.get_min%>
+
+<%descPom = city1.get_desc%>
+<%descMi = city2.get_desc%>
+<%descNY = city3.get_desc%>
+<%descNJ = city4.get_desc%>
+<%descAnch = city5.get_desc%>
 
 <%time = Time.now.strftime("Current time is %H:%M:%S")%>
-<%humidity = 0%>
 
  body {
   /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0dzWNcw9WLz0m8SViWWQ2j2nJ9RsSeCLL0w&usqp=CAU'); */
@@ -38,32 +56,32 @@
 }
 
 .bgimg-1 {
-  background-image: url("https://www.drelseys.com/wp-content/uploads/2018/09/cat-meme-blog-001.jpg");
+  background-image: url("https://c1.wallpaperflare.com/preview/820/760/1010/clouds-sky-cirrus-nature.jpg");
   height: 1000px;
 }
 
 .bgimg-2 {
-  background-image: url("https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
-  min-height: 400px;
+  background-image: url("https://images.unsplash.com/photo-1536244636800-a3f74db0f3cf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHw%3D&w=1000&q=80");
+  min-height: 1000px;
 }
 
 .bgimg-3 {
-  background-image: url("https://img.freepik.com/premium-photo/glowing-advertisement-signs-billboards-city-with-light-reflection-wet-street_163855-226.jpg?w=2000");
-  min-height: 400px;
+   background-image: url("https://cms.groupeditors.com/img/83dc6373-d719-437e-85c3-cc555afb8b3a.jpg");
+  min-height: 1000px;
 }
 
 .bgimg-4 {
-  background-image: url("https://images.unsplash.com/photo-1618340338709-027f57b98a16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y2l0eSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
-  min-height: 400px;
+  background-image: url("https://i.pinimg.com/originals/bc/e5/b3/bce5b333cb399a0eb7b12bdbd698390f.jpg");
+  min-height: 1000px;
 }
 
 .bgimg-5 {
-  background-image: url("https://i.pinimg.com/originals/3a/6c/a1/3a6ca13dd85afd2d3391fa1e17d682f1.jpg");
-  min-height: 400px;
+  background-image: url("https://wallpaperaccess.com/full/1973704.png");
+  min-height: 1000px;
 }
 
  .flip-card {
-  background-color: green; /* make sure to change this to transparent at the end*/
+  background-color: transparent; /* make sure to change this to transparent at the end*/
   margin: 0 auto;
   width: 400px;
   height: 561px;
@@ -74,7 +92,6 @@
 } 
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   border-radius: 10px;
   /* NEEDS TO CENTER CARD AUTOMATICALLY :PRAY: */
   background: white;
@@ -109,6 +126,8 @@
 }
 
 .flip-card-front {
+  border-radius:20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
 }
 
 .flip-card-back {
@@ -125,8 +144,8 @@
 <%
 =end%>
 <body>
-<h1 style = "color:white">Home#index</h1> <!--header for the example-->
-<p>Different text</p> <!--header for the example-->
+<h1 style = "color:blue">Pokemon Weather App by Ruby 1</h1> <!--header for the example-->
+<p><%=time%></p> <!--header for the example-->
 
 
 <div class="bgimg-1" > 
@@ -135,35 +154,25 @@
 <div class="flip-card">
   <div class="card">
     <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
-      <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+      <img src="https://bogleech.com/pokemon/allpokes/018Pidgeot.png" alt="weathericon" style="width:90%;height:50%">
       <div class="container">
-        <%if demo_var.get_date!=nil%>
-        <h4><b><%=demo_var.get_date%></b></h4> 
-      <%else%>
-        No data available
-      <%end%>
+        <h4><b>Pomona, CA</b></h4> 
         <p></p>
           <div class = "Temperature">
-            <%if temperature!=nil%>
-              Temperature is <%=temperature%>
+            <%if tempPom!=nil%>
+              Temperature is <%=tempPom%> °F
             <%else%>
               No temperature info to report 
             <%end%>
             <p></p>
             <p></p>
-            <%if time!=nil%>
-              <%=time%> 
-              <p></p>
-              <%=date%> 
-            <%else%>
-              Time not detected
-            <%end%>
+            <p><%=descPom%></p>
             <p></p>
             </div>
       </div>
     </div>
     <div class="flip-card-back">
-      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%;border-radius:25px;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);">
     </div>
   </div>
 </div>
@@ -175,52 +184,85 @@
 <div class="flip-card">
   <div class="card">
     <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
-      <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+      <img src="https://clipart.info/images/ccovers/1528080673Charmander-pokemon-png.png" alt="weathericon" style="width:75%;height:55%">
       <div class="container">
-        <h4><b>city 2</b></h4> 
-        <p>Architect & Engineer</p> 
+        <h4><b>Miami, FL</b></h4> 
+        <p></p>
+          <div class = "Temperature">
+            <%if tempMi!=nil%>
+              Temperature is <%=tempMi%> °F
+            <%else%>
+              No temperature info to report 
+            <%end%>
+            <p></p>
+            <p></p>
+            <p>Hot throughout the day with mild humidity.</p>
+            <p></p>
+            </div>
       </div>
     </div>
     <div class="flip-card-back">
-      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%;border-radius:25px;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);">
     </div>
   </div>
 </div>
 </div>
 
+
 <div class="bgimg-3" > 
 
-<!--Card display City 3-->
+<<!--Card display City 3-->
 <div class="flip-card">
   <div class="card">
     <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
-      <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+      <img src="https://i.pinimg.com/originals/68/ea/e5/68eae5110003466af047764ff88e2403.png" alt="weathericon" style="width:80%;height:50%">
       <div class="container">
-        <h4><b>city 3</b></h4> 
-        <p>Architect & Engineer</p> 
+        <h4><b>New York, NY</b></h4> 
+        <p></p>
+          <div class = "Temperature">
+            <%if tempNY!=nil%>
+              Temperature is <%=tempNY%> °F
+            <%else%>
+              No temperature info to report 
+            <%end%>
+            <p></p>
+            <p></p>
+            <p><%= descNY%></p>
+            <p></p>
+            </div>
       </div>
     </div>
     <div class="flip-card-back">
-      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%;border-radius:25px;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);">
     </div>
   </div>
 </div>
 </div>
 
 <div class="bgimg-4" > 
-
 <!--Card display City 4-->
 <div class="flip-card">
   <div class="card">
     <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
-      <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+      <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png" alt="weathericon" style="width:70%;height:50%">
       <div class="container">
-        <h4><b>city 4</b></h4> 
-        <p>Architect & Engineer</p> 
+        <h4><b>Newark, NJ</b></h4> 
+        <p></p>
+          <div class = "Temperature">
+            <%if tempNJ!=nil%>
+              Temperature is <%=tempNJ%> °F
+            <%else%>
+              No temperature info to report 
+            <%end%>
+            <p></p>
+            <p></p>
+            <p>Hard rain with scattered storm towards late night.</p>
+            <p></p>
+            </div>
       </div>
     </div>
     <div class="flip-card-back">
-      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%;border-radius:25px;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);">
     </div>
   </div>
 </div>
@@ -232,14 +274,25 @@
 <div class="flip-card">
   <div class="card">
     <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
-      <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+      <img src="https://th.bing.com/th/id/OIP.5E9-U1ylYqCwCI2_8s8-7AAAAA?pid=ImgDet&rs=1" alt="weathericon" style="width:90%;height:50%">
       <div class="container">
-        <h4><b>city 5</b></h4> 
-        <p>Architect & Engineer</p> 
+        <h4><b>Anchorage, AK</b></h4> 
+        <p></p>
+          <div class = "Temperature">
+            <%if tempAnch!=nil%>
+              Temperature is <%=tempAnch%> °F
+            <%else%>
+              No temperature info to report 
+            <%end%>
+            <p></p>
+            <p></p>
+            <p>Light snow throughout the day.</p>
+            <p></p>
+            </div>
       </div>
     </div>
     <div class="flip-card-back">
-      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%;border-radius:25px;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);">
     </div>
   </div>
 </div>

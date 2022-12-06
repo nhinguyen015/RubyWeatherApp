@@ -86,7 +86,9 @@ class DataQuery
                         "Charmander" => "https://clipart.info/images/ccovers/1528080673Charmander-pokemon-png.png",
                         "Squirtle" => "https://i.pinimg.com/originals/68/ea/e5/68eae5110003466af047764ff88e2403.png",
                         "Snom" => "https://th.bing.com/th/id/OIP.5E9-U1ylYqCwCI2_8s8-7AAAAA?pid=ImgDet&rs=1",
-                        "Abomasnow" => "https://cdn.discordapp.com/attachments/1014300724152246385/1049568987329081344/460-Abomasnow.png" 
+                        "Abomasnow" => "https://cdn.discordapp.com/attachments/1014300724152246385/1049568987329081344/460-Abomasnow.png",
+                        "Pidgey" => "https://bogleech.com/pokemon/allpokes/018Pidgeot.png",
+                        "Pikachu" => "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png"
                         }
 
         File.open(fileName, 'w') do |file|

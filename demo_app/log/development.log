@@ -5337,3 +5337,1729 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 495ms (Views: 494.2ms | Allocations: 6826)
 
 
+Started GET "/" for ::1 at 2022-12-05 23:05:26 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 572.8ms | Allocations: 4544)
+  Rendered layout layouts/application.html.erb (Duration: 576.3ms | Allocations: 6151)
+Completed 200 OK in 580ms (Views: 578.7ms | Allocations: 6953)
+
+
+Started GET "/" for ::1 at 2022-12-05 23:05:51 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 560.3ms | Allocations: 4472)
+  Rendered layout layouts/application.html.erb (Duration: 563.2ms | Allocations: 6064)
+Completed 200 OK in 567ms (Views: 565.8ms | Allocations: 6866)
+
+
+Started GET "/" for ::1 at 2022-12-05 23:06:09 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 492.2ms | Allocations: 4474)
+  Rendered layout layouts/application.html.erb (Duration: 495.4ms | Allocations: 6071)
+Completed 200 OK in 499ms (Views: 498.2ms | Allocations: 6873)
+
+
+Started GET "/" for ::1 at 2022-12-05 23:06:23 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 652.1ms | Allocations: 4535)
+  Rendered layout layouts/application.html.erb (Duration: 655.4ms | Allocations: 6147)
+Completed 200 OK in 659ms (Views: 658.1ms | Allocations: 6949)
+
+
+Started GET "/" for ::1 at 2022-12-05 23:06:36 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 591.2ms | Allocations: 4482)
+  Rendered layout layouts/application.html.erb (Duration: 595.1ms | Allocations: 6084)
+Completed 200 OK in 598ms (Views: 597.6ms | Allocations: 6886)
+
+
+Started GET "/" for ::1 at 2022-12-05 23:09:16 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 591.7ms | Allocations: 4463)
+  Rendered layout layouts/application.html.erb (Duration: 594.8ms | Allocations: 6051)
+Completed 200 OK in 598ms (Views: 597.3ms | Allocations: 6853)
+
+
+Started GET "/" for ::1 at 2022-12-05 23:10:05 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 852.8ms | Allocations: 4472)
+  Rendered layout layouts/application.html.erb (Duration: 855.8ms | Allocations: 6048)
+Completed 200 OK in 860ms (Views: 858.4ms | Allocations: 6850)
+
+
+Started GET "/" for ::1 at 2022-12-05 23:10:14 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 511.3ms | Allocations: 4445)
+  Rendered layout layouts/application.html.erb (Duration: 514.4ms | Allocations: 6021)
+Completed 200 OK in 518ms (Views: 517.5ms | Allocations: 6823)
+
+
+Started GET "/" for ::1 at 2022-12-05 23:10:34 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 576.3ms | Allocations: 4472)
+  Rendered layout layouts/application.html.erb (Duration: 579.3ms | Allocations: 6063)
+Completed 200 OK in 583ms (Views: 582.2ms | Allocations: 6865)
+
+
+Started GET "/" for ::1 at 2022-12-05 23:12:11 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 539.7ms | Allocations: 4461)
+  Rendered layout layouts/application.html.erb (Duration: 542.7ms | Allocations: 6046)
+Completed 200 OK in 547ms (Views: 545.7ms | Allocations: 6848)
+
+
+Started GET "/" for ::1 at 2022-12-05 23:12:59 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 464.9ms | Allocations: 4466)
+  Rendered layout layouts/application.html.erb (Duration: 467.9ms | Allocations: 6060)
+Completed 200 OK in 471ms (Views: 470.5ms | Allocations: 6862)
+
+
+Started GET "/" for ::1 at 2022-12-05 23:13:07 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 496.0ms | Allocations: 4522)
+  Rendered layout layouts/application.html.erb (Duration: 499.1ms | Allocations: 6132)
+Completed 200 OK in 503ms (Views: 501.8ms | Allocations: 6934)
+
+
+Started GET "/" for ::1 at 2022-12-05 23:13:43 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 953.4ms | Allocations: 4484)
+  Rendered layout layouts/application.html.erb (Duration: 956.2ms | Allocations: 6073)
+Completed 200 OK in 960ms (Views: 959.2ms | Allocations: 6875)
+
+
+Started GET "/" for ::1 at 2022-12-05 23:14:18 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1002.8ms | Allocations: 4471)
+  Rendered layout layouts/application.html.erb (Duration: 1005.9ms | Allocations: 6059)
+Completed 200 OK in 1009ms (Views: 1008.4ms | Allocations: 6861)
+
+
+Started GET "/" for ::1 at 2022-12-05 23:15:07 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 578.3ms | Allocations: 4467)
+  Rendered layout layouts/application.html.erb (Duration: 581.5ms | Allocations: 6079)
+Completed 200 OK in 586ms (Views: 585.0ms | Allocations: 6881)
+
+
+Started GET "/" for ::1 at 2022-12-05 23:16:03 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1161.5ms | Allocations: 4475)
+  Rendered layout layouts/application.html.erb (Duration: 1164.5ms | Allocations: 6070)
+Completed 200 OK in 1168ms (Views: 1166.9ms | Allocations: 6872)
+
+
+Started GET "/" for ::1 at 2022-12-05 23:16:16 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 590.7ms | Allocations: 4468)
+  Rendered layout layouts/application.html.erb (Duration: 593.9ms | Allocations: 6050)
+Completed 200 OK in 597ms (Views: 596.4ms | Allocations: 6852)
+
+
+Started GET "/" for ::1 at 2022-12-05 23:16:30 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 619.4ms | Allocations: 4465)
+  Rendered layout layouts/application.html.erb (Duration: 622.4ms | Allocations: 6068)
+Completed 200 OK in 626ms (Views: 625.1ms | Allocations: 6870)
+
+
+Started GET "/" for ::1 at 2022-12-05 23:17:37 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 556.1ms | Allocations: 4444)
+  Rendered layout layouts/application.html.erb (Duration: 559.2ms | Allocations: 6056)
+Completed 200 OK in 563ms (Views: 561.9ms | Allocations: 6858)
+
+
+Started GET "/" for ::1 at 2022-12-05 23:18:25 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 537.6ms | Allocations: 4467)
+  Rendered layout layouts/application.html.erb (Duration: 540.8ms | Allocations: 6055)
+Completed 200 OK in 544ms (Views: 543.3ms | Allocations: 6857)
+
+
+Started GET "/" for ::1 at 2022-12-05 23:22:19 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1145.7ms | Allocations: 4474)
+  Rendered layout layouts/application.html.erb (Duration: 1148.7ms | Allocations: 6059)
+Completed 200 OK in 1152ms (Views: 1151.1ms | Allocations: 6861)
+
+
+Started GET "/" for ::1 at 2022-12-05 23:23:30 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 670.3ms | Allocations: 4467)
+  Rendered layout layouts/application.html.erb (Duration: 673.4ms | Allocations: 6061)
+Completed 200 OK in 677ms (Views: 676.0ms | Allocations: 6863)
+
+
+Started GET "/" for ::1 at 2022-12-05 23:25:43 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 541.4ms | Allocations: 4567)
+  Rendered layout layouts/application.html.erb (Duration: 544.6ms | Allocations: 6172)
+Completed 200 OK in 550ms (Views: 547.0ms | Allocations: 6974)
+
+
+Started GET "/" for ::1 at 2022-12-05 23:26:55 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 574.8ms | Allocations: 4527)
+  Rendered layout layouts/application.html.erb (Duration: 578.0ms | Allocations: 6125)
+Completed 200 OK in 582ms (Views: 580.8ms | Allocations: 6927)
+
+
+Started GET "/" for ::1 at 2022-12-05 23:27:17 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 512.5ms | Allocations: 4505)
+  Rendered layout layouts/application.html.erb (Duration: 515.6ms | Allocations: 6084)
+Completed 200 OK in 519ms (Views: 518.0ms | Allocations: 6886)
+
+
+Started GET "/" for ::1 at 2022-12-05 23:32:40 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 537.0ms | Allocations: 4538)
+  Rendered layout layouts/application.html.erb (Duration: 540.7ms | Allocations: 6129)
+Completed 200 OK in 544ms (Views: 543.0ms | Allocations: 6931)
+
+
+Started GET "/" for ::1 at 2022-12-05 23:33:40 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 869.1ms | Allocations: 4543)
+  Rendered layout layouts/application.html.erb (Duration: 872.1ms | Allocations: 6132)
+Completed 200 OK in 875ms (Views: 874.5ms | Allocations: 6934)
+
+
+Started GET "/" for ::1 at 2022-12-05 23:34:09 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 482.5ms | Allocations: 4542)
+  Rendered layout layouts/application.html.erb (Duration: 485.7ms | Allocations: 6127)
+Completed 200 OK in 489ms (Views: 488.3ms | Allocations: 6929)
+
+
+Started GET "/" for ::1 at 2022-12-05 23:39:10 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 557.1ms | Allocations: 4478)
+  Rendered layout layouts/application.html.erb (Duration: 560.5ms | Allocations: 6072)
+Completed 200 OK in 564ms (Views: 563.1ms | Allocations: 6874)
+
+
+Started GET "/" for ::1 at 2022-12-05 23:39:19 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 512.8ms | Allocations: 3730)
+  Rendered layout layouts/application.html.erb (Duration: 515.4ms | Allocations: 4931)
+Completed 200 OK in 516ms (Views: 516.0ms | Allocations: 5212)
+
+
+Started GET "/" for ::1 at 2022-12-05 23:40:21 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1016.3ms | Allocations: 3709)
+  Rendered layout layouts/application.html.erb (Duration: 1018.9ms | Allocations: 4916)
+Completed 200 OK in 1020ms (Views: 1019.4ms | Allocations: 5179)
+
+
+Started GET "/" for ::1 at 2022-12-06 00:00:19 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1066.6ms | Allocations: 3563)
+  Rendered layout layouts/application.html.erb (Duration: 1069.6ms | Allocations: 4758)
+Completed 200 OK in 1071ms (Views: 1070.1ms | Allocations: 5021)
+
+
+Started GET "/" for ::1 at 2022-12-06 11:43:38 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 597.2ms | Allocations: 6822)
+  Rendered layout layouts/application.html.erb (Duration: 763.6ms | Allocations: 29278)
+Completed 200 OK in 828ms (Views: 785.8ms | ActiveRecord: 0.0ms | Allocations: 32512)
+
+
+Started GET "/" for ::1 at 2022-12-06 11:44:34 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 57.6ms | Allocations: 10472)
+  Rendered layout layouts/application.html.erb (Duration: 58.1ms | Allocations: 10569)
+Completed 500 Internal Server Error in 61ms (ActiveRecord: 0.0ms | Allocations: 11410)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+<%require_relative "backend.rb"%>
+<!--change path according to where backend is located for you-->
+<%city1 = DataQuery.new%>
+<%date= Time.now.strftime("%m/%d/%Y")%> 
+<%city1.pull_data("Corona", date)%>
+<%city1.get_date%>
+<%temperature = city1.get_min%>
+
+
+<%time = Time.now.strftime("Current time is %H:%M:%S")%>
+<%humidity = 0%>
+
+ body {
+  /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0dzWNcw9WLz0m8SViWWQ2j2nJ9RsSeCLL0w&usqp=CAU'); */
+  font-family: Andy;
+
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height:100vh;
+  background: white;
+} 
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+  position: relative;
+  /* opacity: 0.65;                 later goal: add opacity for background *aesthetic purposes*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-1 {
+  background-image: url("https://www.drelseys.com/wp-content/uploads/2018/09/cat-meme-blog-001.jpg");
+  height: 1000px;
+}
+
+.bgimg-2 {
+  background-image: url("https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("https://img.freepik.com/premium-photo/glowing-advertisement-signs-billboards-city-with-light-reflection-wet-street_163855-226.jpg?w=2000");
+  min-height: 400px;
+}
+
+.bgimg-4 {
+  background-image: url("https://images.unsplash.com/photo-1618340338709-027f57b98a16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y2l0eSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
+  min-height: 400px;
+}
+
+.bgimg-5 {
+  background-image: url("https://i.pinimg.com/originals/3a/6c/a1/3a6ca13dd85afd2d3391fa1e17d682f1.jpg");
+  min-height: 400px;
+}
+
+ .flip-card {
+  background-color: green; /* make sure to change this to transparent at the end*/
+  margin: 0 auto;
+  width: 400px;
+  height: 561px;
+  z-index:1;
+  display:absolute;
+
+  perspective:1000px;
+} 
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 10px;
+  /* NEEDS TO CENTER CARD AUTOMATICALLY :PRAY: */
+  background: white;
+  text-align: center;
+
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+
+  z-index:2;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(100,255,255);
+}
+
+.card.is-flipped {
+  transform: translateX(50%) rotateY(180deg);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.flip-card:hover .card {
+  transform: rotateY(180deg); 
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; 
+}
+
+.flip-card-front {
+}
+
+.flip-card-back {
+  transform: rotateY(-180deg);
+}
+
+</s
+</style>
+</head>
+
+<%
+=begin%>
+ Here's the HTML portion 
+<%
+=end%>
+<body>
+<h1 style = "color:white">Home#index</h1> <!--header for the example-->
+<p>Different text</p> <!--header for the example-->
+
+
+<div class="bgimg-1" > 
+
+<!--Card display City 1-->
+<div class="flip-card">
+  <div class="card">
+    <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+      <img src="https://static.wikia.nocookie.net/monster/images/9/95/Charizard.png/revision/latest?cb=20170708221247"alt="weathericon" style="width:100%;height:30%">
+      <div class="container">
+        <h4><b>Pomona</b></h4> 
+        <%else%>
+          No data available
+        <%end%>
+        <p></p>
+          <div class = "Temperature">
+            <%if temperature!=nil%>
+              Temperature is <%=temperature%>
+            <%else%>
+              No temperature info to report 
+            <%end%>
+            <p></p>
+            <p></p>
+            <%if time!=nil%>
+              <%=time%> 
+              <p></p>
+              <%=date%> 
+            <%else%>
+              Time not detected
+            <%end%>
+            <p></p>
+            </div>
+      </div>
+    </div>
+    <div class="flip-card-back">
+      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="bgimg-2" > 
+
+<!--Card display City 2-->
+<div class="flip-card">
+  <div class="card">
+    <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+      <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+      <div class="container">
+        <%if date!=nil%>
+        <h4><b><%=date%></b></h4> 
+        <%else%>
+          No data available
+        <%end%>
+        <p></p>
+          <div class = "Temperature">
+            <%if temperature!=nil%>
+              Temperature is <%=temperature%>
+            <%else%>
+              No temperature info to report 
+            <%end%>
+            <p></p>
+            <p></p>
+            <%if time!=nil%>
+              <%=time%> 
+              <p></p>
+              <%=date%> 
+            <%else%>
+              Time not detected
+            <%end%>
+            <p></p>
+            </div>
+      </div>
+    </div>
+    <div class="flip-card-back">
+      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="bgimg-3" > 
+
+<<!--Card display City 3-->
+<div class="flip-card">
+  <div class="card">
+    <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+      <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+      <div class="container">
+        <%if date!=nil%>
+        <h4><b><%=date%></b></h4> 
+        <%else%>
+          No data available
+        <%end%>
+        <p></p>
+          <div class = "Temperature">
+            <%if temperature!=nil%>
+              Temperature is <%=temperature%>
+            <%else%>
+              No temperature info to report 
+            <%end%>
+            <p></p>
+            <p></p>
+            <%if time!=nil%>
+              <%=time%> 
+              <p></p>
+              <%=date%> 
+            <%else%>
+              Time not detected
+            <%end%>
+            <p></p>
+            </div>
+      </div>
+    </div>
+    <div class="flip-card-back">
+      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+    </div>
+  </div>
+</div>
+</div>
+<div class="bgimg-4" > 
+<!--Card display City 4-->
+<div class="flip-card">
+  <div class="card">
+    <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+      <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+      <div class="container">
+        <%if date!=nil%>
+        <h4><b><%=date%></b></h4> 
+        <%else%>
+          No data available
+        <%end%>
+        <p></p>
+          <div class = "Temperature">
+            <%if temperature!=nil%>
+              Temperature is <%=temperature%>
+            <%else%>
+              No temperature info to report 
+            <%end%>
+            <p></p>
+            <p></p>
+            <%if time!=nil%>
+              <%=time%> 
+              <p></p>
+              <%=date%> 
+            <%else%>
+              Time not detected
+            <%end%>
+            <p></p>
+            </div>
+      </div>
+    </div>
+    <div class="flip-card-back">
+      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+    </div>
+  </div>
+</div>
+</div>
+<div class="bgimg-5" > 
+
+<!--Card display City 5-->
+<!--Card display City 1-->
+<div class="flip-card">
+  <div class="card">
+    <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+      <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+      <div class="container">
+        <%if date!=nil%>
+        <h4><b><%=date%></b></h4> 
+        <%else%>
+          No data available
+        <%end%>
+        <p></p>
+          <div class = "Temperature">
+            <%if temperature!=nil%>
+              Temperature is <%=temperature%>
+            <%else%>
+              No temperature info to report 
+            <%end%>
+            <p></p>
+            <p></p>
+            <%if time!=nil%>
+              <%=time%> 
+              <p></p>
+              <%=date%> 
+            <%else%>
+              Time not detected
+            <%end%>
+            <p></p>
+            </div>
+      </div>
+    </div>
+    <div class="flip-card-back">
+      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+    </div>
+  </div>
+</div>
+</div>
+
+</body>
+</html>
+):
+1:    <!DOCTYPE html>
+2:    <html>
+3:    <head>
+4:    <meta name="viewport" content="width=device-width, initial-scale=1">
+5:    <style>
+6:    
+7:    <%require_relative "backend.rb"%>
+8:    <!--change path according to where backend is located for you-->
+9:    <%city1 = DataQuery.new%>
+10:    <%date= Time.now.strftime("%m/%d/%Y")%> 
+11:    <%city1.pull_data("Corona", date)%>
+12:    <%city1.get_date%>
+13:    <%temperature = city1.get_min%>
+14:    
+15:    
+16:    <%time = Time.now.strftime("Current time is %H:%M:%S")%>
+17:    <%humidity = 0%>
+18:    
+19:     body {
+20:      /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0dzWNcw9WLz0m8SViWWQ2j2nJ9RsSeCLL0w&usqp=CAU'); */
+21:      font-family: Andy;
+22:    
+23:      justify-content: center;
+24:      align-items: center;
+25:      position: relative;
+26:      height:100vh;
+27:      background: white;
+28:    } 
+29:    
+30:    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+31:      position: relative;
+32:      /* opacity: 0.65;                 later goal: add opacity for background *aesthetic purposes*/
+33:      background-attachment: fixed;
+34:      background-position: center;
+35:      background-repeat: no-repeat;
+36:      background-size: cover;
+37:    }
+38:    
+39:    .bgimg-1 {
+40:      background-image: url("https://www.drelseys.com/wp-content/uploads/2018/09/cat-meme-blog-001.jpg");
+41:      height: 1000px;
+42:    }
+43:    
+44:    .bgimg-2 {
+45:      background-image: url("https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+46:      min-height: 400px;
+47:    }
+48:    
+49:    .bgimg-3 {
+50:      background-image: url("https://img.freepik.com/premium-photo/glowing-advertisement-signs-billboards-city-with-light-reflection-wet-street_163855-226.jpg?w=2000");
+51:      min-height: 400px;
+52:    }
+53:    
+54:    .bgimg-4 {
+55:      background-image: url("https://images.unsplash.com/photo-1618340338709-027f57b98a16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y2l0eSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
+56:      min-height: 400px;
+57:    }
+58:    
+59:    .bgimg-5 {
+60:      background-image: url("https://i.pinimg.com/originals/3a/6c/a1/3a6ca13dd85afd2d3391fa1e17d682f1.jpg");
+61:      min-height: 400px;
+62:    }
+63:    
+64:     .flip-card {
+65:      background-color: green; /* make sure to change this to transparent at the end*/
+66:      margin: 0 auto;
+67:      width: 400px;
+68:      height: 561px;
+69:      z-index:1;
+70:      display:absolute;
+71:    
+72:      perspective:1000px;
+73:    } 
+74:    
+75:    .card {
+76:      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+77:      border-radius: 10px;
+78:      /* NEEDS TO CENTER CARD AUTOMATICALLY :PRAY: */
+79:      background: white;
+80:      text-align: center;
+81:    
+82:      transition: transform 0.5s;
+83:      transform-style: preserve-3d;
+84:    
+85:      z-index:2;
+86:    }
+87:    
+88:    .card:hover {
+89:      box-shadow: 0 8px 16px 0 rgba(100,255,255);
+90:    }
+91:    
+92:    .card.is-flipped {
+93:      transform: translateX(50%) rotateY(180deg);
+94:    }
+95:    
+96:    .container {
+97:      padding: 2px 16px;
+98:    }
+99:    
+100:    .flip-card:hover .card {
+101:      transform: rotateY(180deg); 
+102:    }
+103:    
+104:    .flip-card-front, .flip-card-back {
+105:      position: absolute;
+106:      -webkit-backface-visibility: hidden;
+107:      backface-visibility: hidden; 
+108:    }
+109:    
+110:    .flip-card-front {
+111:    }
+112:    
+113:    .flip-card-back {
+114:      transform: rotateY(-180deg);
+115:    }
+116:    
+117:    </s
+118:    </style>
+119:    </head>
+120:    
+121:    <%
+122:    =begin%>
+123:     Here's the HTML portion 
+124:    <%
+125:    =end%>
+126:    <body>
+127:    <h1 style = "color:white">Home#index</h1> <!--header for the example-->
+128:    <p>Different text</p> <!--header for the example-->
+129:    
+130:    
+131:    <div class="bgimg-1" > 
+132:    
+133:    <!--Card display City 1-->
+134:    <div class="flip-card">
+135:      <div class="card">
+136:        <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+137:          <img src="https://static.wikia.nocookie.net/monster/images/9/95/Charizard.png/revision/latest?cb=20170708221247"alt="weathericon" style="width:100%;height:30%">
+138:          <div class="container">
+139:            <h4><b>Pomona</b></h4> 
+140:            <%else%>
+141:              No data available
+142:            <%end%>
+143:            <p></p>
+144:              <div class = "Temperature">
+145:                <%if temperature!=nil%>
+146:                  Temperature is <%=temperature%>
+147:                <%else%>
+148:                  No temperature info to report 
+149:                <%end%>
+150:                <p></p>
+151:                <p></p>
+152:                <%if time!=nil%>
+153:                  <%=time%> 
+154:                  <p></p>
+155:                  <%=date%> 
+156:                <%else%>
+157:                  Time not detected
+158:                <%end%>
+159:                <p></p>
+160:                </div>
+161:          </div>
+162:        </div>
+163:        <div class="flip-card-back">
+164:          <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+165:        </div>
+166:      </div>
+167:    </div>
+168:    </div>
+169:    
+170:    <div class="bgimg-2" > 
+171:    
+172:    <!--Card display City 2-->
+173:    <div class="flip-card">
+174:      <div class="card">
+175:        <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+176:          <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+177:          <div class="container">
+178:            <%if date!=nil%>
+179:            <h4><b><%=date%></b></h4> 
+180:            <%else%>
+181:              No data available
+182:            <%end%>
+183:            <p></p>
+184:              <div class = "Temperature">
+185:                <%if temperature!=nil%>
+186:                  Temperature is <%=temperature%>
+187:                <%else%>
+188:                  No temperature info to report 
+189:                <%end%>
+190:                <p></p>
+191:                <p></p>
+192:                <%if time!=nil%>
+193:                  <%=time%> 
+194:                  <p></p>
+195:                  <%=date%> 
+196:                <%else%>
+197:                  Time not detected
+198:                <%end%>
+199:                <p></p>
+200:                </div>
+201:          </div>
+202:        </div>
+203:        <div class="flip-card-back">
+204:          <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+205:        </div>
+206:      </div>
+207:    </div>
+208:    </div>
+209:    
+210:    <div class="bgimg-3" > 
+211:    
+212:    <<!--Card display City 3-->
+213:    <div class="flip-card">
+214:      <div class="card">
+215:        <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+216:          <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+217:          <div class="container">
+218:            <%if date!=nil%>
+219:            <h4><b><%=date%></b></h4> 
+220:            <%else%>
+221:              No data available
+222:            <%end%>
+223:            <p></p>
+224:              <div class = "Temperature">
+225:                <%if temperature!=nil%>
+226:                  Temperature is <%=temperature%>
+227:                <%else%>
+228:                  No temperature info to report 
+229:                <%end%>
+230:                <p></p>
+231:                <p></p>
+232:                <%if time!=nil%>
+233:                  <%=time%> 
+234:                  <p></p>
+235:                  <%=date%> 
+236:                <%else%>
+237:                  Time not detected
+238:                <%end%>
+239:                <p></p>
+240:                </div>
+241:          </div>
+242:        </div>
+243:        <div class="flip-card-back">
+244:          <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+245:        </div>
+246:      </div>
+247:    </div>
+248:    </div>
+249:    <div class="bgimg-4" > 
+250:    <!--Card display City 4-->
+251:    <div class="flip-card">
+252:      <div class="card">
+253:        <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+254:          <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+255:          <div class="container">
+256:            <%if date!=nil%>
+257:            <h4><b><%=date%></b></h4> 
+258:            <%else%>
+259:              No data available
+260:            <%end%>
+261:            <p></p>
+262:              <div class = "Temperature">
+263:                <%if temperature!=nil%>
+264:                  Temperature is <%=temperature%>
+265:                <%else%>
+266:                  No temperature info to report 
+267:                <%end%>
+268:                <p></p>
+269:                <p></p>
+270:                <%if time!=nil%>
+271:                  <%=time%> 
+272:                  <p></p>
+273:                  <%=date%> 
+274:                <%else%>
+275:                  Time not detected
+276:                <%end%>
+277:                <p></p>
+278:                </div>
+279:          </div>
+280:        </div>
+281:        <div class="flip-card-back">
+282:          <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+283:        </div>
+284:      </div>
+285:    </div>
+286:    </div>
+287:    <div class="bgimg-5" > 
+288:    
+289:    <!--Card display City 5-->
+290:    <!--Card display City 1-->
+291:    <div class="flip-card">
+292:      <div class="card">
+293:        <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+294:          <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+295:          <div class="container">
+296:            <%if date!=nil%>
+297:            <h4><b><%=date%></b></h4> 
+298:            <%else%>
+299:              No data available
+300:            <%end%>
+301:            <p></p>
+302:              <div class = "Temperature">
+303:                <%if temperature!=nil%>
+304:                  Temperature is <%=temperature%>
+305:                <%else%>
+306:                  No temperature info to report 
+307:                <%end%>
+308:                <p></p>
+309:                <p></p>
+310:                <%if time!=nil%>
+311:                  <%=time%> 
+312:                  <p></p>
+313:                  <%=date%> 
+314:                <%else%>
+315:                  Time not detected
+316:                <%end%>
+317:                <p></p>
+318:                </div>
+319:          </div>
+320:        </div>
+321:        <div class="flip-card-back">
+322:          <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+323:        </div>
+324:      </div>
+325:    </div>
+326:    </div>
+327:    
+328:    </body>
+329:    </html>
+  
+app/views/home/index.html.erb:140: else without rescue is useless
+app/views/home/index.html.erb:331: syntax error, unexpected `end', expecting end-of-input
+app/views/home/index.html.erb:140: else without rescue is useless
+app/views/home/index.html.erb:331: syntax error, unexpected `end', expecting end-of-input
+app/views/home/index.html.erb:140: else without rescue is useless
+app/views/home/index.html.erb:331: syntax error, unexpected `end', expecting end-of-input
+app/views/home/index.html.erb:140: else without rescue is useless
+app/views/home/index.html.erb:331: syntax error, unexpected `end', expecting end-of-input
+app/views/home/index.html.erb:140: else without rescue is useless
+app/views/home/index.html.erb:331: syntax error, unexpected `end', expecting end-of-input
+app/views/home/index.html.erb:140: else without rescue is useless
+app/views/home/index.html.erb:331: syntax error, unexpected `end', expecting end-of-input
+Started GET "/" for ::1 at 2022-12-06 11:44:44 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 506.7ms | Allocations: 2624)
+  Rendered layout layouts/application.html.erb (Duration: 510.0ms | Allocations: 4236)
+Completed 200 OK in 513ms (Views: 512.5ms | ActiveRecord: 0.0ms | Allocations: 5053)
+
+
+Started GET "/" for ::1 at 2022-12-06 11:45:06 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 399.3ms | Allocations: 2569)
+  Rendered layout layouts/application.html.erb (Duration: 402.6ms | Allocations: 4171)
+Completed 200 OK in 406ms (Views: 405.3ms | ActiveRecord: 0.0ms | Allocations: 4990)
+
+
+Started GET "/" for ::1 at 2022-12-06 11:45:33 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 388.2ms | Allocations: 2569)
+  Rendered layout layouts/application.html.erb (Duration: 391.6ms | Allocations: 4165)
+Completed 200 OK in 396ms (Views: 395.0ms | ActiveRecord: 0.0ms | Allocations: 4984)
+
+
+Started GET "/" for ::1 at 2022-12-06 11:46:02 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 494.8ms | Allocations: 2626)
+  Rendered layout layouts/application.html.erb (Duration: 499.1ms | Allocations: 4242)
+Completed 200 OK in 502ms (Views: 501.5ms | ActiveRecord: 0.0ms | Allocations: 5054)
+
+
+Started GET "/" for ::1 at 2022-12-06 11:46:22 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 395.8ms | Allocations: 2571)
+  Rendered layout layouts/application.html.erb (Duration: 399.1ms | Allocations: 4172)
+Completed 200 OK in 403ms (Views: 401.7ms | ActiveRecord: 0.0ms | Allocations: 4984)
+
+
+Started GET "/" for ::1 at 2022-12-06 11:46:29 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 416.7ms | Allocations: 2571)
+  Rendered layout layouts/application.html.erb (Duration: 419.8ms | Allocations: 4156)
+Completed 200 OK in 423ms (Views: 422.2ms | ActiveRecord: 0.0ms | Allocations: 4968)
+
+
+Started GET "/" for ::1 at 2022-12-06 11:46:39 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 458.6ms | Allocations: 2573)
+  Rendered layout layouts/application.html.erb (Duration: 461.8ms | Allocations: 4170)
+Completed 200 OK in 466ms (Views: 464.6ms | ActiveRecord: 0.0ms | Allocations: 4982)
+
+
+Started GET "/" for ::1 at 2022-12-06 11:47:08 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 444.2ms | Allocations: 2579)
+  Rendered layout layouts/application.html.erb (Duration: 447.5ms | Allocations: 4173)
+Completed 200 OK in 451ms (Views: 450.3ms | ActiveRecord: 0.0ms | Allocations: 4985)
+
+
+Started GET "/" for ::1 at 2022-12-06 11:48:22 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 522.0ms | Allocations: 2576)
+  Rendered layout layouts/application.html.erb (Duration: 525.0ms | Allocations: 4170)
+Completed 200 OK in 529ms (Views: 527.6ms | ActiveRecord: 0.0ms | Allocations: 4982)
+
+
+Started GET "/" for ::1 at 2022-12-06 11:48:28 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 442.1ms | Allocations: 2572)
+  Rendered layout layouts/application.html.erb (Duration: 445.0ms | Allocations: 4166)
+Completed 200 OK in 449ms (Views: 447.8ms | ActiveRecord: 0.0ms | Allocations: 4978)
+
+
+Started GET "/" for ::1 at 2022-12-06 11:49:32 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 461.1ms | Allocations: 2572)
+  Rendered layout layouts/application.html.erb (Duration: 464.2ms | Allocations: 4166)
+Completed 200 OK in 468ms (Views: 467.1ms | ActiveRecord: 0.0ms | Allocations: 4978)
+
+
+Started GET "/" for ::1 at 2022-12-06 11:50:06 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 411.0ms | Allocations: 2572)
+  Rendered layout layouts/application.html.erb (Duration: 414.0ms | Allocations: 4172)
+Completed 200 OK in 418ms (Views: 416.7ms | Allocations: 4974)
+
+
+Started GET "/" for ::1 at 2022-12-06 11:50:17 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 427.5ms | Allocations: 2571)
+  Rendered layout layouts/application.html.erb (Duration: 430.5ms | Allocations: 4165)
+Completed 200 OK in 434ms (Views: 433.2ms | Allocations: 4967)
+
+
+Started GET "/" for ::1 at 2022-12-06 11:52:08 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 557.9ms | Allocations: 2514)
+  Rendered layout layouts/application.html.erb (Duration: 560.8ms | Allocations: 4099)
+Completed 200 OK in 565ms (Views: 563.6ms | Allocations: 4901)
+
+
+Started GET "/" for ::1 at 2022-12-06 11:53:29 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 477.2ms | Allocations: 2517)
+  Rendered layout layouts/application.html.erb (Duration: 480.3ms | Allocations: 4096)
+Completed 200 OK in 484ms (Views: 482.7ms | Allocations: 4898)
+
+
+Started GET "/" for ::1 at 2022-12-06 11:53:50 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 384.3ms | Allocations: 2511)
+  Rendered layout layouts/application.html.erb (Duration: 387.5ms | Allocations: 4114)
+Completed 200 OK in 391ms (Views: 389.9ms | Allocations: 4916)
+
+
+Started GET "/" for ::1 at 2022-12-06 11:54:07 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 366.0ms | Allocations: 2515)
+  Rendered layout layouts/application.html.erb (Duration: 369.3ms | Allocations: 4118)
+Completed 200 OK in 373ms (Views: 371.6ms | Allocations: 4920)
+
+
+Started GET "/" for ::1 at 2022-12-06 11:54:17 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 443.6ms | Allocations: 2510)
+  Rendered layout layouts/application.html.erb (Duration: 446.9ms | Allocations: 4104)
+Completed 200 OK in 450ms (Views: 449.2ms | Allocations: 4906)
+
+
+Started GET "/" for ::1 at 2022-12-06 11:54:22 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 605.2ms | Allocations: 2514)
+  Rendered layout layouts/application.html.erb (Duration: 608.1ms | Allocations: 4111)
+Completed 200 OK in 611ms (Views: 610.4ms | Allocations: 4913)
+
+
+Started GET "/" for ::1 at 2022-12-06 11:54:54 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 428.8ms | Allocations: 2565)
+  Rendered layout layouts/application.html.erb (Duration: 431.8ms | Allocations: 4156)
+Completed 200 OK in 435ms (Views: 434.2ms | Allocations: 4958)
+
+
+Started GET "/" for ::1 at 2022-12-06 11:55:03 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 380.3ms | Allocations: 2511)
+  Rendered layout layouts/application.html.erb (Duration: 383.2ms | Allocations: 4103)
+Completed 200 OK in 387ms (Views: 385.8ms | Allocations: 4905)
+
+
+Started GET "/" for ::1 at 2022-12-06 11:55:09 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 380.0ms | Allocations: 2511)
+  Rendered layout layouts/application.html.erb (Duration: 383.1ms | Allocations: 4108)
+Completed 200 OK in 386ms (Views: 385.6ms | Allocations: 4910)
+
+
+Started GET "/" for ::1 at 2022-12-06 11:56:03 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 462.9ms | Allocations: 2542)
+  Rendered layout layouts/application.html.erb (Duration: 465.9ms | Allocations: 4133)
+Completed 200 OK in 469ms (Views: 468.6ms | Allocations: 4935)
+
+
+Started GET "/" for ::1 at 2022-12-06 11:56:24 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 382.8ms | Allocations: 2538)
+  Rendered layout layouts/application.html.erb (Duration: 385.9ms | Allocations: 4131)
+Completed 200 OK in 390ms (Views: 388.3ms | Allocations: 4933)
+
+
+Started GET "/" for ::1 at 2022-12-06 11:56:56 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 382.6ms | Allocations: 2518)
+  Rendered layout layouts/application.html.erb (Duration: 385.6ms | Allocations: 4109)
+Completed 200 OK in 389ms (Views: 388.2ms | Allocations: 4911)
+
+
+Started GET "/" for ::1 at 2022-12-06 11:57:29 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 478.6ms | Allocations: 2514)
+  Rendered layout layouts/application.html.erb (Duration: 481.6ms | Allocations: 4105)
+Completed 200 OK in 485ms (Views: 483.9ms | Allocations: 4907)
+
+
+Started GET "/" for ::1 at 2022-12-06 11:57:39 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 414.9ms | Allocations: 2511)
+  Rendered layout layouts/application.html.erb (Duration: 417.9ms | Allocations: 4084)
+Completed 200 OK in 421ms (Views: 420.5ms | Allocations: 4886)
+
+
+Started GET "/" for ::1 at 2022-12-06 11:58:32 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 521.2ms | Allocations: 2516)
+  Rendered layout layouts/application.html.erb (Duration: 524.2ms | Allocations: 4107)
+Completed 200 OK in 528ms (Views: 526.8ms | Allocations: 4909)
+
+
+Started GET "/" for ::1 at 2022-12-06 11:58:52 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 411.0ms | Allocations: 2511)
+  Rendered layout layouts/application.html.erb (Duration: 414.1ms | Allocations: 4114)
+Completed 200 OK in 418ms (Views: 416.6ms | Allocations: 4916)
+
+
+Started GET "/" for ::1 at 2022-12-06 11:59:44 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 396.1ms | Allocations: 2511)
+  Rendered layout layouts/application.html.erb (Duration: 399.5ms | Allocations: 4102)
+Completed 200 OK in 403ms (Views: 401.9ms | Allocations: 4904)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:02:28 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 460.5ms | Allocations: 2452)
+  Rendered layout layouts/application.html.erb (Duration: 464.1ms | Allocations: 4049)
+Completed 200 OK in 467ms (Views: 466.5ms | Allocations: 4851)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:05:16 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 491.3ms | Allocations: 2456)
+  Rendered layout layouts/application.html.erb (Duration: 494.5ms | Allocations: 4041)
+Completed 200 OK in 498ms (Views: 497.0ms | Allocations: 4843)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:06:01 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 449.0ms | Allocations: 2456)
+  Rendered layout layouts/application.html.erb (Duration: 452.0ms | Allocations: 4053)
+Completed 200 OK in 456ms (Views: 454.7ms | Allocations: 4855)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:06:13 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 493.6ms | Allocations: 2450)
+  Rendered layout layouts/application.html.erb (Duration: 497.0ms | Allocations: 4053)
+Completed 200 OK in 500ms (Views: 499.4ms | Allocations: 4855)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:06:30 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 414.6ms | Allocations: 2450)
+  Rendered layout layouts/application.html.erb (Duration: 417.7ms | Allocations: 4047)
+Completed 200 OK in 421ms (Views: 420.0ms | Allocations: 4849)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:06:37 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 400.0ms | Allocations: 2451)
+  Rendered layout layouts/application.html.erb (Duration: 403.0ms | Allocations: 4057)
+Completed 200 OK in 406ms (Views: 405.5ms | Allocations: 4859)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:06:42 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 381.1ms | Allocations: 2451)
+  Rendered layout layouts/application.html.erb (Duration: 384.1ms | Allocations: 4033)
+Completed 200 OK in 387ms (Views: 386.6ms | Allocations: 4835)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:07:00 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 431.0ms | Allocations: 2451)
+  Rendered layout layouts/application.html.erb (Duration: 434.2ms | Allocations: 4051)
+Completed 200 OK in 437ms (Views: 436.6ms | Allocations: 4853)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:08:14 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 538.2ms | Allocations: 2466)
+  Rendered layout layouts/application.html.erb (Duration: 541.4ms | Allocations: 4069)
+Completed 200 OK in 545ms (Views: 544.0ms | Allocations: 4871)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:08:45 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 492.3ms | Allocations: 2451)
+  Rendered layout layouts/application.html.erb (Duration: 495.3ms | Allocations: 4046)
+Completed 200 OK in 499ms (Views: 497.6ms | Allocations: 4848)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:08:58 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 399.4ms | Allocations: 2452)
+  Rendered layout layouts/application.html.erb (Duration: 402.4ms | Allocations: 4034)
+Completed 200 OK in 406ms (Views: 404.7ms | Allocations: 4836)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:09:06 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 378.8ms | Allocations: 2510)
+  Rendered layout layouts/application.html.erb (Duration: 381.8ms | Allocations: 4117)
+Completed 200 OK in 385ms (Views: 384.2ms | Allocations: 4919)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:09:21 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 445.4ms | Allocations: 2475)
+  Rendered layout layouts/application.html.erb (Duration: 448.4ms | Allocations: 4060)
+Completed 200 OK in 452ms (Views: 450.9ms | Allocations: 4862)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:09:29 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 446.2ms | Allocations: 2452)
+  Rendered layout layouts/application.html.erb (Duration: 449.3ms | Allocations: 4058)
+Completed 200 OK in 453ms (Views: 451.8ms | Allocations: 4860)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:09:57 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 381.1ms | Allocations: 2453)
+  Rendered layout layouts/application.html.erb (Duration: 384.1ms | Allocations: 4059)
+Completed 200 OK in 388ms (Views: 386.6ms | Allocations: 4861)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:10:11 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 375.8ms | Allocations: 2454)
+  Rendered layout layouts/application.html.erb (Duration: 378.9ms | Allocations: 4051)
+Completed 200 OK in 382ms (Views: 381.4ms | Allocations: 4853)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:10:25 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 416.7ms | Allocations: 2452)
+  Rendered layout layouts/application.html.erb (Duration: 419.9ms | Allocations: 4043)
+Completed 200 OK in 423ms (Views: 422.3ms | Allocations: 4845)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:10:33 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 413.2ms | Allocations: 2454)
+  Rendered layout layouts/application.html.erb (Duration: 416.3ms | Allocations: 4033)
+Completed 200 OK in 420ms (Views: 418.8ms | Allocations: 4835)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:11:16 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 399.3ms | Allocations: 2461)
+  Rendered layout layouts/application.html.erb (Duration: 402.2ms | Allocations: 4058)
+Completed 200 OK in 406ms (Views: 404.7ms | Allocations: 4860)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:12:13 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 429.5ms | Allocations: 2456)
+  Rendered layout layouts/application.html.erb (Duration: 432.5ms | Allocations: 4044)
+Completed 200 OK in 436ms (Views: 434.9ms | Allocations: 4846)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:45:16 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1899.8ms | Allocations: 6087)
+  Rendered layout layouts/application.html.erb (Duration: 1903.3ms | Allocations: 7678)
+Completed 200 OK in 1907ms (Views: 1906.3ms | Allocations: 8485)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:46:35 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1994.2ms | Allocations: 6037)
+  Rendered layout layouts/application.html.erb (Duration: 1997.4ms | Allocations: 7637)
+Completed 200 OK in 2001ms (Views: 2000.3ms | Allocations: 8439)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:46:45 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1966.9ms | Allocations: 6039)
+  Rendered layout layouts/application.html.erb (Duration: 1970.0ms | Allocations: 7630)
+Completed 200 OK in 1973ms (Views: 1972.5ms | Allocations: 8432)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:46:56 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1890.6ms | Allocations: 6034)
+  Rendered layout layouts/application.html.erb (Duration: 1893.6ms | Allocations: 7631)
+Completed 200 OK in 1897ms (Views: 1896.2ms | Allocations: 8433)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:47:14 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1979.5ms | Allocations: 6088)
+  Rendered layout layouts/application.html.erb (Duration: 1982.4ms | Allocations: 7688)
+Completed 200 OK in 1986ms (Views: 1984.7ms | Allocations: 8490)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:48:28 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2007.9ms | Allocations: 6112)
+  Rendered layout layouts/application.html.erb (Duration: 2011.2ms | Allocations: 7712)
+Completed 200 OK in 2015ms (Views: 2013.9ms | Allocations: 8514)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:48:41 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2129.3ms | Allocations: 6067)
+  Rendered layout layouts/application.html.erb (Duration: 2132.5ms | Allocations: 7670)
+Completed 200 OK in 2136ms (Views: 2135.0ms | Allocations: 8472)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:49:10 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1952.4ms | Allocations: 6035)
+  Rendered layout layouts/application.html.erb (Duration: 1955.5ms | Allocations: 7623)
+Completed 200 OK in 1959ms (Views: 1957.9ms | Allocations: 8425)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:49:53 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2089.2ms | Allocations: 6038)
+  Rendered layout layouts/application.html.erb (Duration: 2092.3ms | Allocations: 7623)
+Completed 200 OK in 2096ms (Views: 2094.8ms | Allocations: 8425)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:50:09 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1902.2ms | Allocations: 6042)
+  Rendered layout layouts/application.html.erb (Duration: 1905.7ms | Allocations: 7624)
+Completed 200 OK in 1909ms (Views: 1908.2ms | Allocations: 8426)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:51:02 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2090.5ms | Allocations: 6037)
+  Rendered layout layouts/application.html.erb (Duration: 2093.3ms | Allocations: 7619)
+Completed 200 OK in 2097ms (Views: 2096.0ms | Allocations: 8421)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:51:36 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2011.1ms | Allocations: 6056)
+  Rendered layout layouts/application.html.erb (Duration: 2014.2ms | Allocations: 7665)
+Completed 200 OK in 2018ms (Views: 2016.7ms | Allocations: 8467)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:52:04 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2050.4ms | Allocations: 6075)
+  Rendered layout layouts/application.html.erb (Duration: 2053.5ms | Allocations: 7654)
+Completed 200 OK in 2057ms (Views: 2055.9ms | Allocations: 8456)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:52:48 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2056.9ms | Allocations: 6041)
+  Rendered layout layouts/application.html.erb (Duration: 2060.0ms | Allocations: 7629)
+Completed 200 OK in 2063ms (Views: 2062.4ms | Allocations: 8431)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:54:12 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2052.5ms | Allocations: 6043)
+  Rendered layout layouts/application.html.erb (Duration: 2055.9ms | Allocations: 7637)
+Completed 200 OK in 2059ms (Views: 2058.5ms | Allocations: 8439)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:54:25 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1944.7ms | Allocations: 6052)
+  Rendered layout layouts/application.html.erb (Duration: 1947.8ms | Allocations: 7652)
+Completed 200 OK in 1951ms (Views: 1950.3ms | Allocations: 8454)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:54:39 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1840.8ms | Allocations: 6048)
+  Rendered layout layouts/application.html.erb (Duration: 1846.0ms | Allocations: 7646)
+Completed 200 OK in 1849ms (Views: 1848.5ms | Allocations: 8448)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:55:27 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1934.4ms | Allocations: 6140)
+  Rendered layout layouts/application.html.erb (Duration: 1938.7ms | Allocations: 7726)
+Completed 200 OK in 1942ms (Views: 1941.2ms | Allocations: 8528)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:55:37 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1882.9ms | Allocations: 6074)
+  Rendered layout layouts/application.html.erb (Duration: 1885.9ms | Allocations: 7650)
+Completed 200 OK in 1889ms (Views: 1888.3ms | Allocations: 8452)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:56:18 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2436.3ms | Allocations: 6049)
+  Rendered layout layouts/application.html.erb (Duration: 2439.6ms | Allocations: 7640)
+Completed 200 OK in 2443ms (Views: 2442.0ms | Allocations: 8442)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:57:26 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2438.7ms | Allocations: 6045)
+  Rendered layout layouts/application.html.erb (Duration: 2441.5ms | Allocations: 7636)
+Completed 200 OK in 2445ms (Views: 2444.1ms | Allocations: 8438)
+
+
+Started GET "/" for ::1 at 2022-12-06 12:59:00 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2085.8ms | Allocations: 6071)
+  Rendered layout layouts/application.html.erb (Duration: 2088.8ms | Allocations: 7665)
+Completed 200 OK in 2092ms (Views: 2091.5ms | Allocations: 8467)
+
+
+Started GET "/" for ::1 at 2022-12-06 13:00:32 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3096.5ms | Allocations: 6053)
+  Rendered layout layouts/application.html.erb (Duration: 3099.4ms | Allocations: 7641)
+Completed 200 OK in 3103ms (Views: 3102.0ms | Allocations: 8448)
+
+
+Started GET "/" for ::1 at 2022-12-06 13:00:50 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1873.6ms | Allocations: 6065)
+  Rendered layout layouts/application.html.erb (Duration: 1876.7ms | Allocations: 7659)
+Completed 200 OK in 1880ms (Views: 1879.2ms | Allocations: 8461)
+
+
+Started GET "/" for ::1 at 2022-12-06 13:01:37 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1912.9ms | Allocations: 6075)
+  Rendered layout layouts/application.html.erb (Duration: 1916.0ms | Allocations: 7660)
+Completed 200 OK in 1919ms (Views: 1918.6ms | Allocations: 8462)
+
+
+Started GET "/" for ::1 at 2022-12-06 13:01:49 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1979.8ms | Allocations: 6053)
+  Rendered layout layouts/application.html.erb (Duration: 1982.9ms | Allocations: 7638)
+Completed 200 OK in 1986ms (Views: 1985.3ms | Allocations: 8440)
+
+
+Started GET "/" for ::1 at 2022-12-06 13:02:04 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2087.0ms | Allocations: 6054)
+  Rendered layout layouts/application.html.erb (Duration: 2090.0ms | Allocations: 7654)
+Completed 200 OK in 2093ms (Views: 2092.6ms | Allocations: 8456)
+
+
+Started GET "/" for ::1 at 2022-12-06 13:04:03 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2565.5ms | Allocations: 6103)
+  Rendered layout layouts/application.html.erb (Duration: 2570.7ms | Allocations: 7716)
+Completed 200 OK in 2574ms (Views: 2573.4ms | Allocations: 8518)
+
+
+Started GET "/" for ::1 at 2022-12-06 13:04:14 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2109.4ms | Allocations: 6148)
+  Rendered layout layouts/application.html.erb (Duration: 2112.5ms | Allocations: 7752)
+Completed 200 OK in 2116ms (Views: 2115.2ms | Allocations: 8554)
+
+
+Started GET "/" for ::1 at 2022-12-06 13:05:00 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1981.4ms | Allocations: 6057)
+  Rendered layout layouts/application.html.erb (Duration: 1984.4ms | Allocations: 7648)
+Completed 200 OK in 1988ms (Views: 1986.8ms | Allocations: 8450)
+
+
+Started GET "/" for ::1 at 2022-12-06 13:06:07 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2204.0ms | Allocations: 6036)
+  Rendered layout layouts/application.html.erb (Duration: 2207.1ms | Allocations: 7621)
+Completed 200 OK in 2210ms (Views: 2209.5ms | Allocations: 8423)
+
+
+Started GET "/" for ::1 at 2022-12-06 13:06:32 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1984.0ms | Allocations: 6023)
+  Rendered layout layouts/application.html.erb (Duration: 1986.9ms | Allocations: 7596)
+Completed 200 OK in 1990ms (Views: 1989.4ms | Allocations: 8398)
+
+
+Started GET "/" for ::1 at 2022-12-06 13:07:13 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2006.7ms | Allocations: 6023)
+  Rendered layout layouts/application.html.erb (Duration: 2009.8ms | Allocations: 7629)
+Completed 200 OK in 2013ms (Views: 2012.4ms | Allocations: 8431)
+
+
