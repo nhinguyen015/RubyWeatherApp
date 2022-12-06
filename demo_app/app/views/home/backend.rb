@@ -11,15 +11,19 @@ class DataQuery
         @desc = ""
         @max_temp = ""
         @min_temp = ""
+        @location = ""
     end
 
     def pull_data(location, date)
+        @location = location
+        puts date
+        dateStr = date.split("/")
+        correctDate = dateStr[2] + "-" + dateStr[1] + "-" + dateStr[0]
 
         entries = {}
 
         begin  # "try" block
-            @city = location
-            url = URI("https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/"+location+"?key="+@key)
+            url = URI("https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/"+location+"/"+correctDate+"/"+"?key="+@key)
 
             http = Net::HTTP.new(url.host, url.port)
             http.use_ssl = true
@@ -68,6 +72,10 @@ class DataQuery
 
     def get_min()
         return @min_temp
+    end
+
+    def get_city()
+        return @location
     end
 
     def writeToCSV(fileName, data)

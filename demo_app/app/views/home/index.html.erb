@@ -7,14 +7,14 @@
 <%require_relative "backend.rb"%>
 <!--change path according to where backend is located for you-->
 <%demo_var = DataQuery.new%>
-<%demo_var.pull_data("Corona", 1234)%>
+<%date= Time.now.strftime("%m/%d/%Y")%> 
+<%demo_var.pull_data("Corona", date)%>
 <%demo_var.get_date%>
 
 <%temperature = demo_var.get_min%>
 <%city = nil%>
 
 <%time = Time.now.strftime("Current time is %H:%M:%S")%>
-<%date= Time.now.strftime("%m/%d/%Y")%> 
 <%humidity = 0%>
 
  body {
