@@ -107,7 +107,7 @@ class DataQuery
                     pokemon = "Abomasnow"
                 end
                  
-                file.write(map[0], ",", desc, ",", max_temp, ",", min_temp, ",", pokemon, pokemonURL[pokemon])
+                file.write(map[0], ",", desc, ",", max_temp, ",", min_temp, ",", pokemon, ", ", pokemonURL[pokemon])
                 file.write("\n")
             end
         end
