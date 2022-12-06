@@ -2503,3 +2503,2669 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 7ms (Views: 5.6ms | Allocations: 2774)
 
 
+Started GET "/" for ::1 at 2022-12-04 17:30:02 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 35.8ms | Allocations: 9503)
+  Rendered layout layouts/application.html.erb (Duration: 36.4ms | Allocations: 9614)
+Completed 500 Internal Server Error in 79ms (ActiveRecord: 0.0ms | Allocations: 14209)
+
+
+  
+LoadError (cannot load such file -- C:/Users/fourf/Documents/GitHub/RubyWeatherApp/demo_app/app/views/home/backend.rb):
+  
+app/views/home/index.html.erb:6:in `require_relative'
+app/views/home/index.html.erb:6
+Started GET "/" for ::1 at 2022-12-04 17:30:49 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 71.1ms | Allocations: 12384)
+  Rendered layout layouts/application.html.erb (Duration: 71.8ms | Allocations: 12481)
+Completed 500 Internal Server Error in 77ms (ActiveRecord: 0.0ms | Allocations: 13273)
+
+
+  
+ActionView::Template::Error (No such file or directory @ rb_sysopen - APIKEY.txt):
+     9: <%city = nil%>
+    10: <%date = Time.now.strftime("%m/%d/%Y")%>
+    11: <%time = Time.now.strftime("Current time is %H:%M:%S")%>
+    12: <%query = DataQuery.new%>
+    13: <%query.pull_data("Pomona", 1234)%>
+    14: <%humidity = 0%>
+    15: 
+  
+app/views/home/index.html.erb:12:in `new'
+app/views/home/index.html.erb:12
+Started GET "/" for ::1 at 2022-12-04 17:31:05 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 713)
+  Rendered layout layouts/application.html.erb (Duration: 45.4ms | Allocations: 23223)
+Completed 200 OK in 51ms (Views: 49.1ms | ActiveRecord: 0.0ms | Allocations: 24076)
+
+
+Started GET "/" for ::1 at 2022-12-04 19:12:26 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 706)
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 2335)
+Completed 200 OK in 35ms (Views: 28.7ms | Allocations: 3144)
+
+
+Started GET "/" for ::1 at 2022-12-04 19:28:37 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 76.1ms | Allocations: 10205)
+  Rendered layout layouts/application.html.erb (Duration: 76.7ms | Allocations: 10292)
+Completed 500 Internal Server Error in 84ms (Allocations: 11076)
+
+
+  
+ActionView::Template::Error (uninitialized constant #<Class:0x000001c910f75e60>::DateQuery):
+     7: 
+     8: <%temperature = 66%>
+     9: <%city = nil%>
+    10: <%date = DateQuery.date%>
+    11: <%time = Time.now.strftime("Current time is %H:%M:%S")%>
+    12: <%humidity = 0%>
+    13: 
+  
+app/views/home/index.html.erb:10
+Started GET "/" for ::1 at 2022-12-04 20:05:43 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 60.7ms | Allocations: 8928)
+  Rendered layout layouts/application.html.erb (Duration: 61.2ms | Allocations: 9014)
+Completed 500 Internal Server Error in 68ms (Allocations: 9783)
+
+
+  
+ActionView::Template::Error (No such file or directory @ rb_sysopen - APIKEY.txt):
+     7: 
+     8: <%temperature = 66%>
+     9: <%city = nil%>
+    10: <%date = DataQuery.new%>
+    11: <%date.pull_data(Paris,1234)%>
+    12: <%time = Time.now.strftime("Current time is %H:%M:%S")%>
+    13: <%humidity = 0%>
+  
+app/views/home/index.html.erb:10:in `new'
+app/views/home/index.html.erb:10
+Started GET "/" for ::1 at 2022-12-04 20:06:24 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1665)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1751)
+Completed 500 Internal Server Error in 7ms (Allocations: 2520)
+
+
+  
+ActionView::Template::Error (No such file or directory @ rb_sysopen - APIKEY.txt):
+     7: 
+     8: <%temperature = 66%>
+     9: <%city = nil%>
+    10: <%date = DataQuery.new%>
+    11: <%date.pull_data(Paris,1234)%>
+    12: <%time = Time.now.strftime("Current time is %H:%M:%S")%>
+    13: <%humidity = 0%>
+  
+app/views/home/index.html.erb:10:in `new'
+app/views/home/index.html.erb:10
+Started GET "/" for ::1 at 2022-12-04 20:06:50 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1668)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 1754)
+Completed 500 Internal Server Error in 8ms (Allocations: 2523)
+
+
+  
+ActionView::Template::Error (No such file or directory @ rb_sysopen - APIKEY.txt):
+     7: 
+     8: <%temperature = 66%>
+     9: <%city = nil%>
+    10: <%date = DataQuery.new%>
+    11: <%date.pull_data("Paris",1234)%>
+    12: <%time = Time.now.strftime("Current time is %H:%M:%S")%>
+    13: <%humidity = 0%>
+  
+app/views/home/index.html.erb:10:in `new'
+app/views/home/index.html.erb:10
+Started GET "/" for ::1 at 2022-12-04 20:09:54 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1414)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1501)
+Completed 500 Internal Server Error in 7ms (Allocations: 2275)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+<%require_relative "backend.rb"%><!--change path according to where backend is located for you-->
+
+<%temperature = 66%>
+<%city = nil%>
+/* <%date = DataQuery.new%>
+<%date.pull_data("Paris",1234)%> */
+<%date = Date.now.strftime("Today's date is %MM/%DD/%YYYY")>
+<%time = Time.now.strftime("Current time is %H:%M:%S")%>
+<%humidity = 0%>
+
+ body {
+  /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0dzWNcw9WLz0m8SViWWQ2j2nJ9RsSeCLL0w&usqp=CAU'); */
+  font-family: Andy;
+
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height:100vh;
+  background: white;
+} 
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+  position: relative;
+  /* opacity: 0.65;                 later goal: add opacity for background *aesthetic purposes*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-1 {
+  background-image: url("https://www.drelseys.com/wp-content/uploads/2018/09/cat-meme-blog-001.jpg");
+  margin: 0px 0px;
+  height: 1000px;
+}
+
+.bgimg-2 {
+  background-image: url("https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("https://img.freepik.com/premium-photo/glowing-advertisement-signs-billboards-city-with-light-reflection-wet-street_163855-226.jpg?w=2000");
+  min-height: 400px;
+}
+
+.bgimg-4 {
+  background-image: url("https://images.unsplash.com/photo-1618340338709-027f57b98a16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y2l0eSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
+  min-height: 400px;
+}
+
+.bgimg-5 {
+  background-image: url("https://i.pinimg.com/originals/3a/6c/a1/3a6ca13dd85afd2d3391fa1e17d682f1.jpg");
+  min-height: 400px;
+}
+
+ .flip-card {
+  background-color: green; /* make sure to change this to transparent at the end*/
+  margin: 100px 640px; 
+  width: 400px;
+  height: 561px;
+  z-index:1;
+  display:absolute;
+
+  perspective:1000px;
+} 
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 10px;
+  /* NEEDS TO CENTER CARD AUTOMATICALLY :PRAY: */
+  background: white;
+  text-align: center;
+
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+
+  z-index:2;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(100,255,255);
+}
+
+.card.is-flipped {
+  transform: translateX(50%) rotateY(180deg);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.flip-card:hover .card {
+  transform: rotateY(180deg); 
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; 
+}
+
+.flip-card-front {
+}
+
+.flip-card-back {
+  transform: rotateY(-180deg);
+}
+
+</s
+</style>
+</head>
+
+<%
+=begin%>
+ Here's the HTML portion 
+<%
+=end%>
+<body>
+<h1 style = "color:white">Home#index</h1> <!--header for the example-->
+<p>Different text</p> <!--header for the example-->
+
+
+<div class="bgimg-1" > 
+
+<!--Card display City 1-->
+<div class="flip-card">
+  <div class="card">
+    <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+      <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+      <div class="container">
+        <%if city!=nil%>
+        <h4><b><%=city%></b></h4> 
+      <%else%>
+        No data available
+      <%end%>
+        <p></p>
+          <div class = "Temperature">
+            <%if temperature!=nil%>
+              Temperature is <%=temperature%>
+            <%else%>
+              No temperature info to report 
+            <%end%>
+            <p></p>
+            <%if date!=nil%>
+              Date today is <%=date%> 
+            <%else%>
+              Valid Date Required
+            <%end%>
+            <p></p>
+            <%if time!=nil%>
+              <%=time%> 
+            <%else%>
+              Time not detected
+            <%end%>
+            <p></p>
+      </div>
+    </div>
+    <div class="flip-card-back">
+      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="bgimg-2" > 
+
+<!--Card display City 2-->
+<div class="flip-card">
+  <div class="card">
+    <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+      <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+      <div class="container">
+        <h4><b>city 2</b></h4> 
+        <p>Architect & Engineer</p> 
+      </div>
+    </div>
+    <div class="flip-card-back">
+      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="bgimg-3" > 
+
+<!--Card display City 3-->
+<div class="flip-card">
+  <div class="card">
+    <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+      <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+      <div class="container">
+        <h4><b>city 3</b></h4> 
+        <p>Architect & Engineer</p> 
+      </div>
+    </div>
+    <div class="flip-card-back">
+      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="bgimg-4" > 
+
+<!--Card display City 4-->
+<div class="flip-card">
+  <div class="card">
+    <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+      <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+      <div class="container">
+        <h4><b>city 4</b></h4> 
+        <p>Architect & Engineer</p> 
+      </div>
+    </div>
+    <div class="flip-card-back">
+      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="bgimg-5" > 
+
+<!--Card display City 5-->
+<div class="flip-card">
+  <div class="card">
+    <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+      <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+      <div class="container">
+        <h4><b>city 5</b></h4> 
+        <p>Architect & Engineer</p> 
+      </div>
+    </div>
+    <div class="flip-card-back">
+      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+    </div>
+  </div>
+</div>
+</div>
+
+</body>
+</html>
+
+):
+1:    <!DOCTYPE html>
+2:    <html>
+3:    <head>
+4:    <meta name="viewport" content="width=device-width, initial-scale=1">
+5:    <style>
+6:    <%require_relative "backend.rb"%><!--change path according to where backend is located for you-->
+7:    
+8:    <%temperature = 66%>
+9:    <%city = nil%>
+10:    /* <%date = DataQuery.new%>
+11:    <%date.pull_data("Paris",1234)%> */
+12:    <%date = Date.now.strftime("Today's date is %MM/%DD/%YYYY")>
+13:    <%time = Time.now.strftime("Current time is %H:%M:%S")%>
+14:    <%humidity = 0%>
+15:    
+16:     body {
+17:      /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0dzWNcw9WLz0m8SViWWQ2j2nJ9RsSeCLL0w&usqp=CAU'); */
+18:      font-family: Andy;
+19:    
+20:      justify-content: center;
+21:      align-items: center;
+22:      position: relative;
+23:      height:100vh;
+24:      background: white;
+25:    } 
+26:    
+27:    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+28:      position: relative;
+29:      /* opacity: 0.65;                 later goal: add opacity for background *aesthetic purposes*/
+30:      background-attachment: fixed;
+31:      background-position: center;
+32:      background-repeat: no-repeat;
+33:      background-size: cover;
+34:    }
+35:    
+36:    .bgimg-1 {
+37:      background-image: url("https://www.drelseys.com/wp-content/uploads/2018/09/cat-meme-blog-001.jpg");
+38:      margin: 0px 0px;
+39:      height: 1000px;
+40:    }
+41:    
+42:    .bgimg-2 {
+43:      background-image: url("https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+44:      min-height: 400px;
+45:    }
+46:    
+47:    .bgimg-3 {
+48:      background-image: url("https://img.freepik.com/premium-photo/glowing-advertisement-signs-billboards-city-with-light-reflection-wet-street_163855-226.jpg?w=2000");
+49:      min-height: 400px;
+50:    }
+51:    
+52:    .bgimg-4 {
+53:      background-image: url("https://images.unsplash.com/photo-1618340338709-027f57b98a16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y2l0eSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
+54:      min-height: 400px;
+55:    }
+56:    
+57:    .bgimg-5 {
+58:      background-image: url("https://i.pinimg.com/originals/3a/6c/a1/3a6ca13dd85afd2d3391fa1e17d682f1.jpg");
+59:      min-height: 400px;
+60:    }
+61:    
+62:     .flip-card {
+63:      background-color: green; /* make sure to change this to transparent at the end*/
+64:      margin: 100px 640px; 
+65:      width: 400px;
+66:      height: 561px;
+67:      z-index:1;
+68:      display:absolute;
+69:    
+70:      perspective:1000px;
+71:    } 
+72:    
+73:    .card {
+74:      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+75:      border-radius: 10px;
+76:      /* NEEDS TO CENTER CARD AUTOMATICALLY :PRAY: */
+77:      background: white;
+78:      text-align: center;
+79:    
+80:      transition: transform 0.5s;
+81:      transform-style: preserve-3d;
+82:    
+83:      z-index:2;
+84:    }
+85:    
+86:    .card:hover {
+87:      box-shadow: 0 8px 16px 0 rgba(100,255,255);
+88:    }
+89:    
+90:    .card.is-flipped {
+91:      transform: translateX(50%) rotateY(180deg);
+92:    }
+93:    
+94:    .container {
+95:      padding: 2px 16px;
+96:    }
+97:    
+98:    .flip-card:hover .card {
+99:      transform: rotateY(180deg); 
+100:    }
+101:    
+102:    .flip-card-front, .flip-card-back {
+103:      position: absolute;
+104:      -webkit-backface-visibility: hidden;
+105:      backface-visibility: hidden; 
+106:    }
+107:    
+108:    .flip-card-front {
+109:    }
+110:    
+111:    .flip-card-back {
+112:      transform: rotateY(-180deg);
+113:    }
+114:    
+115:    </s
+116:    </style>
+117:    </head>
+118:    
+119:    <%
+120:    =begin%>
+121:     Here's the HTML portion 
+122:    <%
+123:    =end%>
+124:    <body>
+125:    <h1 style = "color:white">Home#index</h1> <!--header for the example-->
+126:    <p>Different text</p> <!--header for the example-->
+127:    
+128:    
+129:    <div class="bgimg-1" > 
+130:    
+131:    <!--Card display City 1-->
+132:    <div class="flip-card">
+133:      <div class="card">
+134:        <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+135:          <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+136:          <div class="container">
+137:            <%if city!=nil%>
+138:            <h4><b><%=city%></b></h4> 
+139:          <%else%>
+140:            No data available
+141:          <%end%>
+142:            <p></p>
+143:              <div class = "Temperature">
+144:                <%if temperature!=nil%>
+145:                  Temperature is <%=temperature%>
+146:                <%else%>
+147:                  No temperature info to report 
+148:                <%end%>
+149:                <p></p>
+150:                <%if date!=nil%>
+151:                  Date today is <%=date%> 
+152:                <%else%>
+153:                  Valid Date Required
+154:                <%end%>
+155:                <p></p>
+156:                <%if time!=nil%>
+157:                  <%=time%> 
+158:                <%else%>
+159:                  Time not detected
+160:                <%end%>
+161:                <p></p>
+162:          </div>
+163:        </div>
+164:        <div class="flip-card-back">
+165:          <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+166:        </div>
+167:      </div>
+168:    </div>
+169:    </div>
+170:    
+171:    <div class="bgimg-2" > 
+172:    
+173:    <!--Card display City 2-->
+174:    <div class="flip-card">
+175:      <div class="card">
+176:        <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+177:          <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+178:          <div class="container">
+179:            <h4><b>city 2</b></h4> 
+180:            <p>Architect & Engineer</p> 
+181:          </div>
+182:        </div>
+183:        <div class="flip-card-back">
+184:          <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+185:        </div>
+186:      </div>
+187:    </div>
+188:    </div>
+189:    
+190:    <div class="bgimg-3" > 
+191:    
+192:    <!--Card display City 3-->
+193:    <div class="flip-card">
+194:      <div class="card">
+195:        <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+196:          <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+197:          <div class="container">
+198:            <h4><b>city 3</b></h4> 
+199:            <p>Architect & Engineer</p> 
+200:          </div>
+201:        </div>
+202:        <div class="flip-card-back">
+203:          <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+204:        </div>
+205:      </div>
+206:    </div>
+207:    </div>
+208:    
+209:    <div class="bgimg-4" > 
+210:    
+211:    <!--Card display City 4-->
+212:    <div class="flip-card">
+213:      <div class="card">
+214:        <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+215:          <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+216:          <div class="container">
+217:            <h4><b>city 4</b></h4> 
+218:            <p>Architect & Engineer</p> 
+219:          </div>
+220:        </div>
+221:        <div class="flip-card-back">
+222:          <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+223:        </div>
+224:      </div>
+225:    </div>
+226:    </div>
+227:    
+228:    <div class="bgimg-5" > 
+229:    
+230:    <!--Card display City 5-->
+231:    <div class="flip-card">
+232:      <div class="card">
+233:        <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+234:          <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+235:          <div class="container">
+236:            <h4><b>city 5</b></h4> 
+237:            <p>Architect & Engineer</p> 
+238:          </div>
+239:        </div>
+240:        <div class="flip-card-back">
+241:          <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+242:        </div>
+243:      </div>
+244:    </div>
+245:    </div>
+246:    
+247:    </body>
+248:    </html>
+  
+app/views/home/index.html.erb:13: syntax error, unexpected '<'
+app/views/home/index.html.erb:13: unknown type of %string
+app/views/home/index.html.erb:13: syntax error, unexpected '<'
+app/views/home/index.html.erb:13: unknown type of %string
+app/views/home/index.html.erb:13: syntax error, unexpected '<'
+app/views/home/index.html.erb:13: unknown type of %string
+app/views/home/index.html.erb:13: syntax error, unexpected '<'
+app/views/home/index.html.erb:13: unknown type of %string
+app/views/home/index.html.erb:13: syntax error, unexpected '<'
+app/views/home/index.html.erb:13: unknown type of %string
+app/views/home/index.html.erb:13: syntax error, unexpected '<'
+app/views/home/index.html.erb:13: unknown type of %string
+Started GET "/" for ::1 at 2022-12-04 20:10:23 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1400)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 1487)
+Completed 500 Internal Server Error in 7ms (Allocations: 2257)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+<%require_relative "demo_app\\backend.rb"%><!--change path according to where backend is located for you-->
+
+<%temperature = 66%>
+<%city = nil%>
+/* <%date = DataQuery.new%>
+<%date.pull_data("Paris",1234)%> */
+<%date = Date.now.strftime("Today's date is %MM/%DD/%YYYY")>
+<%time = Time.now.strftime("Current time is %H:%M:%S")%>
+<%humidity = 0%>
+
+ body {
+  /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0dzWNcw9WLz0m8SViWWQ2j2nJ9RsSeCLL0w&usqp=CAU'); */
+  font-family: Andy;
+
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height:100vh;
+  background: white;
+} 
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+  position: relative;
+  /* opacity: 0.65;                 later goal: add opacity for background *aesthetic purposes*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-1 {
+  background-image: url("https://www.drelseys.com/wp-content/uploads/2018/09/cat-meme-blog-001.jpg");
+  margin: 0px 0px;
+  height: 1000px;
+}
+
+.bgimg-2 {
+  background-image: url("https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("https://img.freepik.com/premium-photo/glowing-advertisement-signs-billboards-city-with-light-reflection-wet-street_163855-226.jpg?w=2000");
+  min-height: 400px;
+}
+
+.bgimg-4 {
+  background-image: url("https://images.unsplash.com/photo-1618340338709-027f57b98a16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y2l0eSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
+  min-height: 400px;
+}
+
+.bgimg-5 {
+  background-image: url("https://i.pinimg.com/originals/3a/6c/a1/3a6ca13dd85afd2d3391fa1e17d682f1.jpg");
+  min-height: 400px;
+}
+
+ .flip-card {
+  background-color: green; /* make sure to change this to transparent at the end*/
+  margin: 100px 640px; 
+  width: 400px;
+  height: 561px;
+  z-index:1;
+  display:absolute;
+
+  perspective:1000px;
+} 
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 10px;
+  /* NEEDS TO CENTER CARD AUTOMATICALLY :PRAY: */
+  background: white;
+  text-align: center;
+
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+
+  z-index:2;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(100,255,255);
+}
+
+.card.is-flipped {
+  transform: translateX(50%) rotateY(180deg);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.flip-card:hover .card {
+  transform: rotateY(180deg); 
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; 
+}
+
+.flip-card-front {
+}
+
+.flip-card-back {
+  transform: rotateY(-180deg);
+}
+
+</s
+</style>
+</head>
+
+<%
+=begin%>
+ Here's the HTML portion 
+<%
+=end%>
+<body>
+<h1 style = "color:white">Home#index</h1> <!--header for the example-->
+<p>Different text</p> <!--header for the example-->
+
+
+<div class="bgimg-1" > 
+
+<!--Card display City 1-->
+<div class="flip-card">
+  <div class="card">
+    <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+      <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+      <div class="container">
+        <%if city!=nil%>
+        <h4><b><%=city%></b></h4> 
+      <%else%>
+        No data available
+      <%end%>
+        <p></p>
+          <div class = "Temperature">
+            <%if temperature!=nil%>
+              Temperature is <%=temperature%>
+            <%else%>
+              No temperature info to report 
+            <%end%>
+            <p></p>
+            <%if date!=nil%>
+              Date today is <%=date%> 
+            <%else%>
+              Valid Date Required
+            <%end%>
+            <p></p>
+            <%if time!=nil%>
+              <%=time%> 
+            <%else%>
+              Time not detected
+            <%end%>
+            <p></p>
+      </div>
+    </div>
+    <div class="flip-card-back">
+      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="bgimg-2" > 
+
+<!--Card display City 2-->
+<div class="flip-card">
+  <div class="card">
+    <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+      <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+      <div class="container">
+        <h4><b>city 2</b></h4> 
+        <p>Architect & Engineer</p> 
+      </div>
+    </div>
+    <div class="flip-card-back">
+      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="bgimg-3" > 
+
+<!--Card display City 3-->
+<div class="flip-card">
+  <div class="card">
+    <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+      <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+      <div class="container">
+        <h4><b>city 3</b></h4> 
+        <p>Architect & Engineer</p> 
+      </div>
+    </div>
+    <div class="flip-card-back">
+      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="bgimg-4" > 
+
+<!--Card display City 4-->
+<div class="flip-card">
+  <div class="card">
+    <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+      <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+      <div class="container">
+        <h4><b>city 4</b></h4> 
+        <p>Architect & Engineer</p> 
+      </div>
+    </div>
+    <div class="flip-card-back">
+      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="bgimg-5" > 
+
+<!--Card display City 5-->
+<div class="flip-card">
+  <div class="card">
+    <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+      <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+      <div class="container">
+        <h4><b>city 5</b></h4> 
+        <p>Architect & Engineer</p> 
+      </div>
+    </div>
+    <div class="flip-card-back">
+      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+    </div>
+  </div>
+</div>
+</div>
+
+</body>
+</html>
+
+):
+1:    <!DOCTYPE html>
+2:    <html>
+3:    <head>
+4:    <meta name="viewport" content="width=device-width, initial-scale=1">
+5:    <style>
+6:    <%require_relative "demo_app\\backend.rb"%><!--change path according to where backend is located for you-->
+7:    
+8:    <%temperature = 66%>
+9:    <%city = nil%>
+10:    /* <%date = DataQuery.new%>
+11:    <%date.pull_data("Paris",1234)%> */
+12:    <%date = Date.now.strftime("Today's date is %MM/%DD/%YYYY")>
+13:    <%time = Time.now.strftime("Current time is %H:%M:%S")%>
+14:    <%humidity = 0%>
+15:    
+16:     body {
+17:      /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0dzWNcw9WLz0m8SViWWQ2j2nJ9RsSeCLL0w&usqp=CAU'); */
+18:      font-family: Andy;
+19:    
+20:      justify-content: center;
+21:      align-items: center;
+22:      position: relative;
+23:      height:100vh;
+24:      background: white;
+25:    } 
+26:    
+27:    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+28:      position: relative;
+29:      /* opacity: 0.65;                 later goal: add opacity for background *aesthetic purposes*/
+30:      background-attachment: fixed;
+31:      background-position: center;
+32:      background-repeat: no-repeat;
+33:      background-size: cover;
+34:    }
+35:    
+36:    .bgimg-1 {
+37:      background-image: url("https://www.drelseys.com/wp-content/uploads/2018/09/cat-meme-blog-001.jpg");
+38:      margin: 0px 0px;
+39:      height: 1000px;
+40:    }
+41:    
+42:    .bgimg-2 {
+43:      background-image: url("https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+44:      min-height: 400px;
+45:    }
+46:    
+47:    .bgimg-3 {
+48:      background-image: url("https://img.freepik.com/premium-photo/glowing-advertisement-signs-billboards-city-with-light-reflection-wet-street_163855-226.jpg?w=2000");
+49:      min-height: 400px;
+50:    }
+51:    
+52:    .bgimg-4 {
+53:      background-image: url("https://images.unsplash.com/photo-1618340338709-027f57b98a16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y2l0eSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
+54:      min-height: 400px;
+55:    }
+56:    
+57:    .bgimg-5 {
+58:      background-image: url("https://i.pinimg.com/originals/3a/6c/a1/3a6ca13dd85afd2d3391fa1e17d682f1.jpg");
+59:      min-height: 400px;
+60:    }
+61:    
+62:     .flip-card {
+63:      background-color: green; /* make sure to change this to transparent at the end*/
+64:      margin: 100px 640px; 
+65:      width: 400px;
+66:      height: 561px;
+67:      z-index:1;
+68:      display:absolute;
+69:    
+70:      perspective:1000px;
+71:    } 
+72:    
+73:    .card {
+74:      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+75:      border-radius: 10px;
+76:      /* NEEDS TO CENTER CARD AUTOMATICALLY :PRAY: */
+77:      background: white;
+78:      text-align: center;
+79:    
+80:      transition: transform 0.5s;
+81:      transform-style: preserve-3d;
+82:    
+83:      z-index:2;
+84:    }
+85:    
+86:    .card:hover {
+87:      box-shadow: 0 8px 16px 0 rgba(100,255,255);
+88:    }
+89:    
+90:    .card.is-flipped {
+91:      transform: translateX(50%) rotateY(180deg);
+92:    }
+93:    
+94:    .container {
+95:      padding: 2px 16px;
+96:    }
+97:    
+98:    .flip-card:hover .card {
+99:      transform: rotateY(180deg); 
+100:    }
+101:    
+102:    .flip-card-front, .flip-card-back {
+103:      position: absolute;
+104:      -webkit-backface-visibility: hidden;
+105:      backface-visibility: hidden; 
+106:    }
+107:    
+108:    .flip-card-front {
+109:    }
+110:    
+111:    .flip-card-back {
+112:      transform: rotateY(-180deg);
+113:    }
+114:    
+115:    </s
+116:    </style>
+117:    </head>
+118:    
+119:    <%
+120:    =begin%>
+121:     Here's the HTML portion 
+122:    <%
+123:    =end%>
+124:    <body>
+125:    <h1 style = "color:white">Home#index</h1> <!--header for the example-->
+126:    <p>Different text</p> <!--header for the example-->
+127:    
+128:    
+129:    <div class="bgimg-1" > 
+130:    
+131:    <!--Card display City 1-->
+132:    <div class="flip-card">
+133:      <div class="card">
+134:        <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+135:          <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+136:          <div class="container">
+137:            <%if city!=nil%>
+138:            <h4><b><%=city%></b></h4> 
+139:          <%else%>
+140:            No data available
+141:          <%end%>
+142:            <p></p>
+143:              <div class = "Temperature">
+144:                <%if temperature!=nil%>
+145:                  Temperature is <%=temperature%>
+146:                <%else%>
+147:                  No temperature info to report 
+148:                <%end%>
+149:                <p></p>
+150:                <%if date!=nil%>
+151:                  Date today is <%=date%> 
+152:                <%else%>
+153:                  Valid Date Required
+154:                <%end%>
+155:                <p></p>
+156:                <%if time!=nil%>
+157:                  <%=time%> 
+158:                <%else%>
+159:                  Time not detected
+160:                <%end%>
+161:                <p></p>
+162:          </div>
+163:        </div>
+164:        <div class="flip-card-back">
+165:          <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+166:        </div>
+167:      </div>
+168:    </div>
+169:    </div>
+170:    
+171:    <div class="bgimg-2" > 
+172:    
+173:    <!--Card display City 2-->
+174:    <div class="flip-card">
+175:      <div class="card">
+176:        <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+177:          <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+178:          <div class="container">
+179:            <h4><b>city 2</b></h4> 
+180:            <p>Architect & Engineer</p> 
+181:          </div>
+182:        </div>
+183:        <div class="flip-card-back">
+184:          <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+185:        </div>
+186:      </div>
+187:    </div>
+188:    </div>
+189:    
+190:    <div class="bgimg-3" > 
+191:    
+192:    <!--Card display City 3-->
+193:    <div class="flip-card">
+194:      <div class="card">
+195:        <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+196:          <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+197:          <div class="container">
+198:            <h4><b>city 3</b></h4> 
+199:            <p>Architect & Engineer</p> 
+200:          </div>
+201:        </div>
+202:        <div class="flip-card-back">
+203:          <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+204:        </div>
+205:      </div>
+206:    </div>
+207:    </div>
+208:    
+209:    <div class="bgimg-4" > 
+210:    
+211:    <!--Card display City 4-->
+212:    <div class="flip-card">
+213:      <div class="card">
+214:        <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+215:          <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+216:          <div class="container">
+217:            <h4><b>city 4</b></h4> 
+218:            <p>Architect & Engineer</p> 
+219:          </div>
+220:        </div>
+221:        <div class="flip-card-back">
+222:          <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+223:        </div>
+224:      </div>
+225:    </div>
+226:    </div>
+227:    
+228:    <div class="bgimg-5" > 
+229:    
+230:    <!--Card display City 5-->
+231:    <div class="flip-card">
+232:      <div class="card">
+233:        <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+234:          <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+235:          <div class="container">
+236:            <h4><b>city 5</b></h4> 
+237:            <p>Architect & Engineer</p> 
+238:          </div>
+239:        </div>
+240:        <div class="flip-card-back">
+241:          <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+242:        </div>
+243:      </div>
+244:    </div>
+245:    </div>
+246:    
+247:    </body>
+248:    </html>
+  
+app/views/home/index.html.erb:13: syntax error, unexpected '<'
+app/views/home/index.html.erb:13: unknown type of %string
+app/views/home/index.html.erb:13: syntax error, unexpected '<'
+app/views/home/index.html.erb:13: unknown type of %string
+app/views/home/index.html.erb:13: syntax error, unexpected '<'
+app/views/home/index.html.erb:13: unknown type of %string
+app/views/home/index.html.erb:13: syntax error, unexpected '<'
+app/views/home/index.html.erb:13: unknown type of %string
+app/views/home/index.html.erb:13: syntax error, unexpected '<'
+app/views/home/index.html.erb:13: unknown type of %string
+app/views/home/index.html.erb:13: syntax error, unexpected '<'
+app/views/home/index.html.erb:13: unknown type of %string
+Started GET "/" for ::1 at 2022-12-04 20:10:40 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1400)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 1487)
+Completed 500 Internal Server Error in 7ms (Allocations: 2257)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+<%require_relative "RubyWeatherApp\\demo_app\\backend.rb"%><!--change path according to where backend is located for you-->
+
+<%temperature = 66%>
+<%city = nil%>
+/* <%date = DataQuery.new%>
+<%date.pull_data("Paris",1234)%> */
+<%date = Date.now.strftime("Today's date is %MM/%DD/%YYYY")>
+<%time = Time.now.strftime("Current time is %H:%M:%S")%>
+<%humidity = 0%>
+
+ body {
+  /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0dzWNcw9WLz0m8SViWWQ2j2nJ9RsSeCLL0w&usqp=CAU'); */
+  font-family: Andy;
+
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height:100vh;
+  background: white;
+} 
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+  position: relative;
+  /* opacity: 0.65;                 later goal: add opacity for background *aesthetic purposes*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-1 {
+  background-image: url("https://www.drelseys.com/wp-content/uploads/2018/09/cat-meme-blog-001.jpg");
+  margin: 0px 0px;
+  height: 1000px;
+}
+
+.bgimg-2 {
+  background-image: url("https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("https://img.freepik.com/premium-photo/glowing-advertisement-signs-billboards-city-with-light-reflection-wet-street_163855-226.jpg?w=2000");
+  min-height: 400px;
+}
+
+.bgimg-4 {
+  background-image: url("https://images.unsplash.com/photo-1618340338709-027f57b98a16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y2l0eSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
+  min-height: 400px;
+}
+
+.bgimg-5 {
+  background-image: url("https://i.pinimg.com/originals/3a/6c/a1/3a6ca13dd85afd2d3391fa1e17d682f1.jpg");
+  min-height: 400px;
+}
+
+ .flip-card {
+  background-color: green; /* make sure to change this to transparent at the end*/
+  margin: 100px 640px; 
+  width: 400px;
+  height: 561px;
+  z-index:1;
+  display:absolute;
+
+  perspective:1000px;
+} 
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 10px;
+  /* NEEDS TO CENTER CARD AUTOMATICALLY :PRAY: */
+  background: white;
+  text-align: center;
+
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+
+  z-index:2;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(100,255,255);
+}
+
+.card.is-flipped {
+  transform: translateX(50%) rotateY(180deg);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.flip-card:hover .card {
+  transform: rotateY(180deg); 
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; 
+}
+
+.flip-card-front {
+}
+
+.flip-card-back {
+  transform: rotateY(-180deg);
+}
+
+</s
+</style>
+</head>
+
+<%
+=begin%>
+ Here's the HTML portion 
+<%
+=end%>
+<body>
+<h1 style = "color:white">Home#index</h1> <!--header for the example-->
+<p>Different text</p> <!--header for the example-->
+
+
+<div class="bgimg-1" > 
+
+<!--Card display City 1-->
+<div class="flip-card">
+  <div class="card">
+    <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+      <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+      <div class="container">
+        <%if city!=nil%>
+        <h4><b><%=city%></b></h4> 
+      <%else%>
+        No data available
+      <%end%>
+        <p></p>
+          <div class = "Temperature">
+            <%if temperature!=nil%>
+              Temperature is <%=temperature%>
+            <%else%>
+              No temperature info to report 
+            <%end%>
+            <p></p>
+            <%if date!=nil%>
+              Date today is <%=date%> 
+            <%else%>
+              Valid Date Required
+            <%end%>
+            <p></p>
+            <%if time!=nil%>
+              <%=time%> 
+            <%else%>
+              Time not detected
+            <%end%>
+            <p></p>
+      </div>
+    </div>
+    <div class="flip-card-back">
+      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="bgimg-2" > 
+
+<!--Card display City 2-->
+<div class="flip-card">
+  <div class="card">
+    <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+      <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+      <div class="container">
+        <h4><b>city 2</b></h4> 
+        <p>Architect & Engineer</p> 
+      </div>
+    </div>
+    <div class="flip-card-back">
+      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="bgimg-3" > 
+
+<!--Card display City 3-->
+<div class="flip-card">
+  <div class="card">
+    <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+      <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+      <div class="container">
+        <h4><b>city 3</b></h4> 
+        <p>Architect & Engineer</p> 
+      </div>
+    </div>
+    <div class="flip-card-back">
+      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="bgimg-4" > 
+
+<!--Card display City 4-->
+<div class="flip-card">
+  <div class="card">
+    <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+      <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+      <div class="container">
+        <h4><b>city 4</b></h4> 
+        <p>Architect & Engineer</p> 
+      </div>
+    </div>
+    <div class="flip-card-back">
+      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="bgimg-5" > 
+
+<!--Card display City 5-->
+<div class="flip-card">
+  <div class="card">
+    <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+      <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+      <div class="container">
+        <h4><b>city 5</b></h4> 
+        <p>Architect & Engineer</p> 
+      </div>
+    </div>
+    <div class="flip-card-back">
+      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+    </div>
+  </div>
+</div>
+</div>
+
+</body>
+</html>
+
+):
+1:    <!DOCTYPE html>
+2:    <html>
+3:    <head>
+4:    <meta name="viewport" content="width=device-width, initial-scale=1">
+5:    <style>
+6:    <%require_relative "RubyWeatherApp\\demo_app\\backend.rb"%><!--change path according to where backend is located for you-->
+7:    
+8:    <%temperature = 66%>
+9:    <%city = nil%>
+10:    /* <%date = DataQuery.new%>
+11:    <%date.pull_data("Paris",1234)%> */
+12:    <%date = Date.now.strftime("Today's date is %MM/%DD/%YYYY")>
+13:    <%time = Time.now.strftime("Current time is %H:%M:%S")%>
+14:    <%humidity = 0%>
+15:    
+16:     body {
+17:      /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0dzWNcw9WLz0m8SViWWQ2j2nJ9RsSeCLL0w&usqp=CAU'); */
+18:      font-family: Andy;
+19:    
+20:      justify-content: center;
+21:      align-items: center;
+22:      position: relative;
+23:      height:100vh;
+24:      background: white;
+25:    } 
+26:    
+27:    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+28:      position: relative;
+29:      /* opacity: 0.65;                 later goal: add opacity for background *aesthetic purposes*/
+30:      background-attachment: fixed;
+31:      background-position: center;
+32:      background-repeat: no-repeat;
+33:      background-size: cover;
+34:    }
+35:    
+36:    .bgimg-1 {
+37:      background-image: url("https://www.drelseys.com/wp-content/uploads/2018/09/cat-meme-blog-001.jpg");
+38:      margin: 0px 0px;
+39:      height: 1000px;
+40:    }
+41:    
+42:    .bgimg-2 {
+43:      background-image: url("https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+44:      min-height: 400px;
+45:    }
+46:    
+47:    .bgimg-3 {
+48:      background-image: url("https://img.freepik.com/premium-photo/glowing-advertisement-signs-billboards-city-with-light-reflection-wet-street_163855-226.jpg?w=2000");
+49:      min-height: 400px;
+50:    }
+51:    
+52:    .bgimg-4 {
+53:      background-image: url("https://images.unsplash.com/photo-1618340338709-027f57b98a16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y2l0eSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
+54:      min-height: 400px;
+55:    }
+56:    
+57:    .bgimg-5 {
+58:      background-image: url("https://i.pinimg.com/originals/3a/6c/a1/3a6ca13dd85afd2d3391fa1e17d682f1.jpg");
+59:      min-height: 400px;
+60:    }
+61:    
+62:     .flip-card {
+63:      background-color: green; /* make sure to change this to transparent at the end*/
+64:      margin: 100px 640px; 
+65:      width: 400px;
+66:      height: 561px;
+67:      z-index:1;
+68:      display:absolute;
+69:    
+70:      perspective:1000px;
+71:    } 
+72:    
+73:    .card {
+74:      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+75:      border-radius: 10px;
+76:      /* NEEDS TO CENTER CARD AUTOMATICALLY :PRAY: */
+77:      background: white;
+78:      text-align: center;
+79:    
+80:      transition: transform 0.5s;
+81:      transform-style: preserve-3d;
+82:    
+83:      z-index:2;
+84:    }
+85:    
+86:    .card:hover {
+87:      box-shadow: 0 8px 16px 0 rgba(100,255,255);
+88:    }
+89:    
+90:    .card.is-flipped {
+91:      transform: translateX(50%) rotateY(180deg);
+92:    }
+93:    
+94:    .container {
+95:      padding: 2px 16px;
+96:    }
+97:    
+98:    .flip-card:hover .card {
+99:      transform: rotateY(180deg); 
+100:    }
+101:    
+102:    .flip-card-front, .flip-card-back {
+103:      position: absolute;
+104:      -webkit-backface-visibility: hidden;
+105:      backface-visibility: hidden; 
+106:    }
+107:    
+108:    .flip-card-front {
+109:    }
+110:    
+111:    .flip-card-back {
+112:      transform: rotateY(-180deg);
+113:    }
+114:    
+115:    </s
+116:    </style>
+117:    </head>
+118:    
+119:    <%
+120:    =begin%>
+121:     Here's the HTML portion 
+122:    <%
+123:    =end%>
+124:    <body>
+125:    <h1 style = "color:white">Home#index</h1> <!--header for the example-->
+126:    <p>Different text</p> <!--header for the example-->
+127:    
+128:    
+129:    <div class="bgimg-1" > 
+130:    
+131:    <!--Card display City 1-->
+132:    <div class="flip-card">
+133:      <div class="card">
+134:        <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+135:          <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+136:          <div class="container">
+137:            <%if city!=nil%>
+138:            <h4><b><%=city%></b></h4> 
+139:          <%else%>
+140:            No data available
+141:          <%end%>
+142:            <p></p>
+143:              <div class = "Temperature">
+144:                <%if temperature!=nil%>
+145:                  Temperature is <%=temperature%>
+146:                <%else%>
+147:                  No temperature info to report 
+148:                <%end%>
+149:                <p></p>
+150:                <%if date!=nil%>
+151:                  Date today is <%=date%> 
+152:                <%else%>
+153:                  Valid Date Required
+154:                <%end%>
+155:                <p></p>
+156:                <%if time!=nil%>
+157:                  <%=time%> 
+158:                <%else%>
+159:                  Time not detected
+160:                <%end%>
+161:                <p></p>
+162:          </div>
+163:        </div>
+164:        <div class="flip-card-back">
+165:          <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+166:        </div>
+167:      </div>
+168:    </div>
+169:    </div>
+170:    
+171:    <div class="bgimg-2" > 
+172:    
+173:    <!--Card display City 2-->
+174:    <div class="flip-card">
+175:      <div class="card">
+176:        <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+177:          <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+178:          <div class="container">
+179:            <h4><b>city 2</b></h4> 
+180:            <p>Architect & Engineer</p> 
+181:          </div>
+182:        </div>
+183:        <div class="flip-card-back">
+184:          <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+185:        </div>
+186:      </div>
+187:    </div>
+188:    </div>
+189:    
+190:    <div class="bgimg-3" > 
+191:    
+192:    <!--Card display City 3-->
+193:    <div class="flip-card">
+194:      <div class="card">
+195:        <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+196:          <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+197:          <div class="container">
+198:            <h4><b>city 3</b></h4> 
+199:            <p>Architect & Engineer</p> 
+200:          </div>
+201:        </div>
+202:        <div class="flip-card-back">
+203:          <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+204:        </div>
+205:      </div>
+206:    </div>
+207:    </div>
+208:    
+209:    <div class="bgimg-4" > 
+210:    
+211:    <!--Card display City 4-->
+212:    <div class="flip-card">
+213:      <div class="card">
+214:        <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+215:          <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+216:          <div class="container">
+217:            <h4><b>city 4</b></h4> 
+218:            <p>Architect & Engineer</p> 
+219:          </div>
+220:        </div>
+221:        <div class="flip-card-back">
+222:          <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+223:        </div>
+224:      </div>
+225:    </div>
+226:    </div>
+227:    
+228:    <div class="bgimg-5" > 
+229:    
+230:    <!--Card display City 5-->
+231:    <div class="flip-card">
+232:      <div class="card">
+233:        <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+234:          <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+235:          <div class="container">
+236:            <h4><b>city 5</b></h4> 
+237:            <p>Architect & Engineer</p> 
+238:          </div>
+239:        </div>
+240:        <div class="flip-card-back">
+241:          <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+242:        </div>
+243:      </div>
+244:    </div>
+245:    </div>
+246:    
+247:    </body>
+248:    </html>
+  
+app/views/home/index.html.erb:13: syntax error, unexpected '<'
+app/views/home/index.html.erb:13: unknown type of %string
+app/views/home/index.html.erb:13: syntax error, unexpected '<'
+app/views/home/index.html.erb:13: unknown type of %string
+app/views/home/index.html.erb:13: syntax error, unexpected '<'
+app/views/home/index.html.erb:13: unknown type of %string
+app/views/home/index.html.erb:13: syntax error, unexpected '<'
+app/views/home/index.html.erb:13: unknown type of %string
+app/views/home/index.html.erb:13: syntax error, unexpected '<'
+app/views/home/index.html.erb:13: unknown type of %string
+app/views/home/index.html.erb:13: syntax error, unexpected '<'
+app/views/home/index.html.erb:13: unknown type of %string
+Started GET "/" for ::1 at 2022-12-04 20:13:49 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 11.5ms | Allocations: 1405)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 1492)
+Completed 500 Internal Server Error in 18ms (Allocations: 2262)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+<%require_relative "RubyWeatherApp\\demo_app\\backend.rb"%><!--change path according to where backend is located for you-->
+
+<%temperature = 66%>
+<%city = nil%>
+/* <%date = DataQuery.new%>
+<%date.pull_data("Paris",1234)%> */
+<%date = Date.now.strftime("Today's date is %MM/%DD/%YYYY")>
+<%time = Time.now.strftime("Current time is %H:%M:%S")%>
+<%humidity = 0%>
+
+ body {
+  /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0dzWNcw9WLz0m8SViWWQ2j2nJ9RsSeCLL0w&usqp=CAU'); */
+  font-family: Andy;
+
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height:100vh;
+  background: white;
+} 
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+  position: relative;
+  /* opacity: 0.65;                 later goal: add opacity for background *aesthetic purposes*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-1 {
+  background-image: url("https://www.drelseys.com/wp-content/uploads/2018/09/cat-meme-blog-001.jpg");
+  margin: 0px 0px;
+  height: 1000px;
+}
+
+.bgimg-2 {
+  background-image: url("https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("https://img.freepik.com/premium-photo/glowing-advertisement-signs-billboards-city-with-light-reflection-wet-street_163855-226.jpg?w=2000");
+  min-height: 400px;
+}
+
+.bgimg-4 {
+  background-image: url("https://images.unsplash.com/photo-1618340338709-027f57b98a16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y2l0eSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
+  min-height: 400px;
+}
+
+.bgimg-5 {
+  background-image: url("https://i.pinimg.com/originals/3a/6c/a1/3a6ca13dd85afd2d3391fa1e17d682f1.jpg");
+  min-height: 400px;
+}
+
+ .flip-card {
+  background-color: green; /* make sure to change this to transparent at the end*/
+  margin: 100px 640px; 
+  width: 400px;
+  height: 561px;
+  z-index:1;
+  display:absolute;
+
+  perspective:1000px;
+} 
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 10px;
+  /* NEEDS TO CENTER CARD AUTOMATICALLY :PRAY: */
+  background: white;
+  text-align: center;
+
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+
+  z-index:2;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(100,255,255);
+}
+
+.card.is-flipped {
+  transform: translateX(50%) rotateY(180deg);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.flip-card:hover .card {
+  transform: rotateY(180deg); 
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; 
+}
+
+.flip-card-front {
+}
+
+.flip-card-back {
+  transform: rotateY(-180deg);
+}
+
+</s
+</style>
+</head>
+
+<%
+=begin%>
+ Here's the HTML portion 
+<%
+=end%>
+<body>
+<h1 style = "color:white">Home#index</h1> <!--header for the example-->
+<p>Different text</p> <!--header for the example-->
+
+
+<div class="bgimg-1" > 
+
+<!--Card display City 1-->
+<div class="flip-card">
+  <div class="card">
+    <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+      <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+      <div class="container">
+        <%if city!=nil%>
+        <h4><b><%=city%></b></h4> 
+      <%else%>
+        No data available
+      <%end%>
+        <p></p>
+          <div class = "Temperature">
+            <%if temperature!=nil%>
+              Temperature is <%=temperature%>
+            <%else%>
+              No temperature info to report 
+            <%end%>
+            <p></p>
+            <%if date!=nil%>
+              Date today is <%=date%> 
+            <%else%>
+              Valid Date Required
+            <%end%>
+            <p></p>
+            <%if time!=nil%>
+              <%=time%> 
+            <%else%>
+              Time not detected
+            <%end%>
+            <p></p>
+      </div>
+    </div>
+    <div class="flip-card-back">
+      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="bgimg-2" > 
+
+<!--Card display City 2-->
+<div class="flip-card">
+  <div class="card">
+    <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+      <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+      <div class="container">
+        <h4><b>city 2</b></h4> 
+        <p>Architect & Engineer</p> 
+      </div>
+    </div>
+    <div class="flip-card-back">
+      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="bgimg-3" > 
+
+<!--Card display City 3-->
+<div class="flip-card">
+  <div class="card">
+    <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+      <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+      <div class="container">
+        <h4><b>city 3</b></h4> 
+        <p>Architect & Engineer</p> 
+      </div>
+    </div>
+    <div class="flip-card-back">
+      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="bgimg-4" > 
+
+<!--Card display City 4-->
+<div class="flip-card">
+  <div class="card">
+    <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+      <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+      <div class="container">
+        <h4><b>city 4</b></h4> 
+        <p>Architect & Engineer</p> 
+      </div>
+    </div>
+    <div class="flip-card-back">
+      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="bgimg-5" > 
+
+<!--Card display City 5-->
+<div class="flip-card">
+  <div class="card">
+    <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+      <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+      <div class="container">
+        <h4><b>city 5</b></h4> 
+        <p>Architect & Engineer</p> 
+      </div>
+    </div>
+    <div class="flip-card-back">
+      <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+    </div>
+  </div>
+</div>
+</div>
+
+</body>
+</html>
+
+):
+1:    <!DOCTYPE html>
+2:    <html>
+3:    <head>
+4:    <meta name="viewport" content="width=device-width, initial-scale=1">
+5:    <style>
+6:    <%require_relative "RubyWeatherApp\\demo_app\\backend.rb"%><!--change path according to where backend is located for you-->
+7:    
+8:    <%temperature = 66%>
+9:    <%city = nil%>
+10:    /* <%date = DataQuery.new%>
+11:    <%date.pull_data("Paris",1234)%> */
+12:    <%date = Date.now.strftime("Today's date is %MM/%DD/%YYYY")>
+13:    <%time = Time.now.strftime("Current time is %H:%M:%S")%>
+14:    <%humidity = 0%>
+15:    
+16:     body {
+17:      /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0dzWNcw9WLz0m8SViWWQ2j2nJ9RsSeCLL0w&usqp=CAU'); */
+18:      font-family: Andy;
+19:    
+20:      justify-content: center;
+21:      align-items: center;
+22:      position: relative;
+23:      height:100vh;
+24:      background: white;
+25:    } 
+26:    
+27:    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+28:      position: relative;
+29:      /* opacity: 0.65;                 later goal: add opacity for background *aesthetic purposes*/
+30:      background-attachment: fixed;
+31:      background-position: center;
+32:      background-repeat: no-repeat;
+33:      background-size: cover;
+34:    }
+35:    
+36:    .bgimg-1 {
+37:      background-image: url("https://www.drelseys.com/wp-content/uploads/2018/09/cat-meme-blog-001.jpg");
+38:      margin: 0px 0px;
+39:      height: 1000px;
+40:    }
+41:    
+42:    .bgimg-2 {
+43:      background-image: url("https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+44:      min-height: 400px;
+45:    }
+46:    
+47:    .bgimg-3 {
+48:      background-image: url("https://img.freepik.com/premium-photo/glowing-advertisement-signs-billboards-city-with-light-reflection-wet-street_163855-226.jpg?w=2000");
+49:      min-height: 400px;
+50:    }
+51:    
+52:    .bgimg-4 {
+53:      background-image: url("https://images.unsplash.com/photo-1618340338709-027f57b98a16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y2l0eSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
+54:      min-height: 400px;
+55:    }
+56:    
+57:    .bgimg-5 {
+58:      background-image: url("https://i.pinimg.com/originals/3a/6c/a1/3a6ca13dd85afd2d3391fa1e17d682f1.jpg");
+59:      min-height: 400px;
+60:    }
+61:    
+62:     .flip-card {
+63:      background-color: green; /* make sure to change this to transparent at the end*/
+64:      margin: 100px 640px; 
+65:      width: 400px;
+66:      height: 561px;
+67:      z-index:1;
+68:      display:absolute;
+69:    
+70:      perspective:1000px;
+71:    } 
+72:    
+73:    .card {
+74:      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+75:      border-radius: 10px;
+76:      /* NEEDS TO CENTER CARD AUTOMATICALLY :PRAY: */
+77:      background: white;
+78:      text-align: center;
+79:    
+80:      transition: transform 0.5s;
+81:      transform-style: preserve-3d;
+82:    
+83:      z-index:2;
+84:    }
+85:    
+86:    .card:hover {
+87:      box-shadow: 0 8px 16px 0 rgba(100,255,255);
+88:    }
+89:    
+90:    .card.is-flipped {
+91:      transform: translateX(50%) rotateY(180deg);
+92:    }
+93:    
+94:    .container {
+95:      padding: 2px 16px;
+96:    }
+97:    
+98:    .flip-card:hover .card {
+99:      transform: rotateY(180deg); 
+100:    }
+101:    
+102:    .flip-card-front, .flip-card-back {
+103:      position: absolute;
+104:      -webkit-backface-visibility: hidden;
+105:      backface-visibility: hidden; 
+106:    }
+107:    
+108:    .flip-card-front {
+109:    }
+110:    
+111:    .flip-card-back {
+112:      transform: rotateY(-180deg);
+113:    }
+114:    
+115:    </s
+116:    </style>
+117:    </head>
+118:    
+119:    <%
+120:    =begin%>
+121:     Here's the HTML portion 
+122:    <%
+123:    =end%>
+124:    <body>
+125:    <h1 style = "color:white">Home#index</h1> <!--header for the example-->
+126:    <p>Different text</p> <!--header for the example-->
+127:    
+128:    
+129:    <div class="bgimg-1" > 
+130:    
+131:    <!--Card display City 1-->
+132:    <div class="flip-card">
+133:      <div class="card">
+134:        <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+135:          <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+136:          <div class="container">
+137:            <%if city!=nil%>
+138:            <h4><b><%=city%></b></h4> 
+139:          <%else%>
+140:            No data available
+141:          <%end%>
+142:            <p></p>
+143:              <div class = "Temperature">
+144:                <%if temperature!=nil%>
+145:                  Temperature is <%=temperature%>
+146:                <%else%>
+147:                  No temperature info to report 
+148:                <%end%>
+149:                <p></p>
+150:                <%if date!=nil%>
+151:                  Date today is <%=date%> 
+152:                <%else%>
+153:                  Valid Date Required
+154:                <%end%>
+155:                <p></p>
+156:                <%if time!=nil%>
+157:                  <%=time%> 
+158:                <%else%>
+159:                  Time not detected
+160:                <%end%>
+161:                <p></p>
+162:          </div>
+163:        </div>
+164:        <div class="flip-card-back">
+165:          <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+166:        </div>
+167:      </div>
+168:    </div>
+169:    </div>
+170:    
+171:    <div class="bgimg-2" > 
+172:    
+173:    <!--Card display City 2-->
+174:    <div class="flip-card">
+175:      <div class="card">
+176:        <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+177:          <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+178:          <div class="container">
+179:            <h4><b>city 2</b></h4> 
+180:            <p>Architect & Engineer</p> 
+181:          </div>
+182:        </div>
+183:        <div class="flip-card-back">
+184:          <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+185:        </div>
+186:      </div>
+187:    </div>
+188:    </div>
+189:    
+190:    <div class="bgimg-3" > 
+191:    
+192:    <!--Card display City 3-->
+193:    <div class="flip-card">
+194:      <div class="card">
+195:        <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+196:          <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+197:          <div class="container">
+198:            <h4><b>city 3</b></h4> 
+199:            <p>Architect & Engineer</p> 
+200:          </div>
+201:        </div>
+202:        <div class="flip-card-back">
+203:          <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+204:        </div>
+205:      </div>
+206:    </div>
+207:    </div>
+208:    
+209:    <div class="bgimg-4" > 
+210:    
+211:    <!--Card display City 4-->
+212:    <div class="flip-card">
+213:      <div class="card">
+214:        <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+215:          <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+216:          <div class="container">
+217:            <h4><b>city 4</b></h4> 
+218:            <p>Architect & Engineer</p> 
+219:          </div>
+220:        </div>
+221:        <div class="flip-card-back">
+222:          <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+223:        </div>
+224:      </div>
+225:    </div>
+226:    </div>
+227:    
+228:    <div class="bgimg-5" > 
+229:    
+230:    <!--Card display City 5-->
+231:    <div class="flip-card">
+232:      <div class="card">
+233:        <div class="flip-card-front" style="background-color: white;width:400px;height:560px">
+234:          <img src="https://pa1.narvii.com/6849/a24733a2eb676de083dd5851b44483cb79f9fc55_hq.gif" alt="weathericon" style="width:100%;height:30%">
+235:          <div class="container">
+236:            <h4><b>city 5</b></h4> 
+237:            <p>Architect & Engineer</p> 
+238:          </div>
+239:        </div>
+240:        <div class="flip-card-back">
+241:          <img src="https://comicchannel.weebly.com/uploads/2/2/7/5/22759674/8520676_orig.jpg" alt="backcard" style="width:100%;height:100%">
+242:        </div>
+243:      </div>
+244:    </div>
+245:    </div>
+246:    
+247:    </body>
+248:    </html>
+  
+app/views/home/index.html.erb:13: syntax error, unexpected '<'
+app/views/home/index.html.erb:13: unknown type of %string
+app/views/home/index.html.erb:13: syntax error, unexpected '<'
+app/views/home/index.html.erb:13: unknown type of %string
+app/views/home/index.html.erb:13: syntax error, unexpected '<'
+app/views/home/index.html.erb:13: unknown type of %string
+app/views/home/index.html.erb:13: syntax error, unexpected '<'
+app/views/home/index.html.erb:13: unknown type of %string
+app/views/home/index.html.erb:13: syntax error, unexpected '<'
+app/views/home/index.html.erb:13: unknown type of %string
+app/views/home/index.html.erb:13: syntax error, unexpected '<'
+app/views/home/index.html.erb:13: unknown type of %string
+Started GET "/" for ::1 at 2022-12-04 20:18:08 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1692)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1778)
+Completed 500 Internal Server Error in 7ms (Allocations: 2547)
+
+
+  
+ActionView::Template::Error (No such file or directory @ rb_sysopen - APIKEY.txt):
+     7: 
+     8: <%temperature = 66%>
+     9: <%city = nil%>
+    10: /* <%date = DataQuery.new%>
+    11: <%date.pull_data("Paris",1234)%> */
+    12: <%date = Time.now.strftime("%m/%d/%Y")%>
+    13: <%time = Time.now.strftime("Current time is %H:%M:%S")%>
+  
+app/views/home/index.html.erb:10:in `new'
+app/views/home/index.html.erb:10
+Started GET "/" for ::1 at 2022-12-04 20:18:34 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1693)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 1779)
+Completed 500 Internal Server Error in 8ms (Allocations: 2548)
+
+
+  
+ActionView::Template::Error (No such file or directory @ rb_sysopen - APIKEY.txt):
+     7: 
+     8: <%temperature = 66%>
+     9: <%city = nil%>
+    10: <!--/* <%date = DataQuery.new%>
+    11: <%date.pull_data("Paris",1234)%> */-->
+    12: <%date = Time.now.strftime("%m/%d/%Y")%>
+    13: <%time = Time.now.strftime("Current time is %H:%M:%S")%>
+  
+app/views/home/index.html.erb:10:in `new'
+app/views/home/index.html.erb:10
+Started GET "/" for ::1 at 2022-12-04 20:18:49 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 713)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 2347)
+Completed 200 OK in 13ms (Views: 11.1ms | Allocations: 3143)
+
+
+Started GET "/" for ::1 at 2022-12-04 20:21:03 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 7977)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 8064)
+Completed 500 Internal Server Error in 10ms (Allocations: 8836)
+
+
+  
+LoadError (cannot load such file -- C:/Users/fourf/Documents/GitHub/RubyWeatherApp/demo_app/main.rb):
+  
+app/views/home/index.html.erb:6:in `require_relative'
+app/views/home/index.html.erb:6
+Started GET "/" for ::1 at 2022-12-04 20:21:55 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 717)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 2345)
+Completed 200 OK in 10ms (Views: 8.5ms | Allocations: 3141)
+
+
+Started GET "/" for ::1 at 2022-12-04 20:22:22 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.1ms | Allocations: 1857)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 1952)
+Completed 500 Internal Server Error in 14ms (Allocations: 2727)
+
+
+  
+ActionView::Template::Error (No such file or directory @ rb_sysopen - APIKEY.txt):
+    3: <head>
+    4: <meta name="viewport" content="width=device-width, initial-scale=1">
+    5: <style>
+    6: <%require_relative "C:\\Users\\fourf\\Documents\\GitHub\\RubyWeatherApp\\main.rb"%><!--change path according to where backend is located for you-->
+    7: 
+    8: <%temperature = 66%>
+    9: <%city = nil%>
+  
+app/views/home/index.html.erb:6:in `require_relative'
+app/views/home/index.html.erb:6
+Started GET "/" for ::1 at 2022-12-04 20:23:47 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1717)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 1803)
+Completed 500 Internal Server Error in 8ms (Allocations: 2572)
+
+
+  
+ActionView::Template::Error (No such file or directory @ rb_sysopen - APIKEY.txt):
+    3: <head>
+    4: <meta name="viewport" content="width=device-width, initial-scale=1">
+    5: <style>
+    6: <%require_relative "C:\\Users\\fourf\\Documents\\GitHub\\RubyWeatherApp\\main.rb"%><!--change path according to where backend is located for you-->
+    7: 
+    8: <%temperature = 66%>
+    9: <%city = nil%>
+  
+app/views/home/index.html.erb:6:in `require_relative'
+app/views/home/index.html.erb:6
+Started GET "/" for ::1 at 2022-12-04 20:24:03 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 61.6ms | Allocations: 8984)
+  Rendered layout layouts/application.html.erb (Duration: 62.1ms | Allocations: 9070)
+Completed 500 Internal Server Error in 67ms (Allocations: 9839)
+
+
+  
+ActionView::Template::Error (No such file or directory @ rb_sysopen - APIKEY.txt):
+    3: <head>
+    4: <meta name="viewport" content="width=device-width, initial-scale=1">
+    5: <style>
+    6: <%require "C:\\Users\\fourf\\Documents\\GitHub\\RubyWeatherApp\\main.rb"%><!--change path according to where backend is located for you-->
+    7: 
+    8: <%temperature = 66%>
+    9: <%city = nil%>
+  
+app/views/home/index.html.erb:6
+Started GET "/" for ::1 at 2022-12-04 20:30:16 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 57.4ms | Allocations: 8258)
+  Rendered layout layouts/application.html.erb (Duration: 57.9ms | Allocations: 8335)
+Completed 500 Internal Server Error in 60ms (Allocations: 8594)
+
+
+  
+ActionView::Template::Error (No such file or directory @ rb_sysopen - APIKEY.txt):
+    3: <head>
+    4: <meta name="viewport" content="width=device-width, initial-scale=1">
+    5: <style>
+    6: <%require "C:\\Users\\fourf\\Documents\\GitHub\\RubyWeatherApp\\main.rb"%><!--change path according to where backend is located for you-->
+    7: 
+    8: <%temperature = 66%>
+    9: <%city = nil%>
+  
+app/views/home/index.html.erb:6
+Started GET "/" for ::1 at 2022-12-04 20:45:12 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 65.9ms | Allocations: 10226)
+  Rendered layout layouts/application.html.erb (Duration: 66.5ms | Allocations: 10313)
+Completed 500 Internal Server Error in 72ms (Allocations: 11058)
+
+
+  
+LoadError (cannot load such file -- backend.rb):
+  
+app/views/home/index.html.erb:6
+Started GET "/" for ::1 at 2022-12-04 20:49:42 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 60.8ms | Allocations: 8340)
+  Rendered layout layouts/application.html.erb (Duration: 64.6ms | Allocations: 9955)
+Completed 200 OK in 70ms (Views: 68.3ms | Allocations: 10751)
+
+
+Started GET "/" for ::1 at 2022-12-04 21:00:03 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 56.0ms | Allocations: 8109)
+  Rendered layout layouts/application.html.erb (Duration: 59.8ms | Allocations: 9714)
+Completed 200 OK in 65ms (Views: 63.4ms | Allocations: 10516)
+
+
+Started GET "/" for ::1 at 2022-12-05 19:48:55 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 92.9ms | Allocations: 4172)
+  Rendered layout layouts/application.html.erb (Duration: 275.6ms | Allocations: 26848)
+Completed 200 OK in 354ms (Views: 300.7ms | ActiveRecord: 0.0ms | Allocations: 30082)
+
+
+Started GET "/" for ::1 at 2022-12-05 20:37:13 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 72.6ms | Allocations: 10425)
+  Rendered layout layouts/application.html.erb (Duration: 73.2ms | Allocations: 10521)
+Completed 500 Internal Server Error in 79ms (Allocations: 11353)
+
+
+  
+ActionView::Template::Error (uninitialized constant #<Class:0x000001f1ccfa0e00>::Data):
+     7: 
+     8: <%temperature = 66%>
+     9: <%city = nil%>
+    10: <%demovar = Data%>
+    11: <%date = Time.now.strftime("%m/%d/%Y")%>
+    12: <%time = Time.now.strftime("Current time is %H:%M:%S")%>
+    13: <%%>
+  
+app/views/home/index.html.erb:10
+Started GET "/" for ::1 at 2022-12-05 20:57:26 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 5324)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 5411)
+Completed 500 Internal Server Error in 12ms (Allocations: 6191)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `backend' for #<ActionView::Base:0x0000000000a708>):
+     7: 
+     8: <%temperature = 66%>
+     9: <%city = nil%>
+    10: <%demovar = backend.DataQuery.new%>
+    11: <%demovar.pull_data('Paris',1234)%>
+    12: <%date = Time.now.strftime("%m/%d/%Y")%>
+    13: <%time = Time.now.strftime("Current time is %H:%M:%S")%>
+  
+app/views/home/index.html.erb:10
+Started GET "/" for ::1 at 2022-12-05 20:57:42 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1694)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 1781)
+Completed 500 Internal Server Error in 7ms (Allocations: 2559)
+
+
+  
+ActionView::Template::Error (No such file or directory @ rb_sysopen - APIKEY.txt):
+     7: 
+     8: <%temperature = 66%>
+     9: <%city = nil%>
+    10: <%demovar = DataQuery.new%>
+    11: <%demovar.pull_data('Paris',1234)%>
+    12: <%date = Time.now.strftime("%m/%d/%Y")%>
+    13: <%time = Time.now.strftime("Current time is %H:%M:%S")%>
+  
+app/views/home/backend.rb:8:in `initialize'
+app/views/home/backend.rb:8:in `open'
+app/views/home/backend.rb:8:in `initialize'
+app/views/home/index.html.erb:10:in `new'
+app/views/home/index.html.erb:10
+Started GET "/" for ::1 at 2022-12-05 21:06:27 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 12.6ms | Allocations: 6040)
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 6150)
+Completed 500 Internal Server Error in 78ms (ActiveRecord: 0.0ms | Allocations: 9324)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `date' for #<ActionView::Base:0x0000000000a168>):
+    146:               No temperature info to report 
+    147:             <%end%>
+    148:             <p></p>
+    149:             <%if date!=nil%>
+    150:               Date today is <%=date%> 
+    151:             <%else%>
+    152:               Valid Date Required
+  
+app/views/home/index.html.erb:149
+Started GET "/" for ::1 at 2022-12-05 21:07:56 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 5452)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 5539)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 6327)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `date' for #<ActionView::Base:0x0000000000a4d8>):
+     9: <%city = nil%>
+    10: 
+    11: <%time = Time.now.strftime("Current time is %H:%M:%S")%>
+    12: <%date.now = Time.now.strftime("Current day is %m/%d/%Y")%>
+    13: <%humidity = 0%>
+    14: 
+    15:  body {
+  
+app/views/home/index.html.erb:12
+Started GET "/" for ::1 at 2022-12-05 21:08:16 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 4741)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 4819)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 5087)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `date' for #<ActionView::Base:0x0000000000a848>):
+     9: <%city = nil%>
+    10: 
+    11: <%time = Time.now.strftime("Current time is %H:%M:%S")%>
+    12: <%date.now = Time.now.strftime("Current day is %m/%d/%Y")%>
+    13: <%humidity = 0%>
+    14: 
+    15:  body {
+  
+app/views/home/index.html.erb:12
+Started GET "/" for ::1 at 2022-12-05 21:08:29 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 702)
+  Rendered layout layouts/application.html.erb (Duration: 49.5ms | Allocations: 23095)
+Completed 200 OK in 55ms (Views: 53.4ms | ActiveRecord: 0.0ms | Allocations: 23927)
+
+
+Started GET "/" for ::1 at 2022-12-05 21:08:54 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 702)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 2321)
+Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 3140)
+
+
+Started GET "/" for ::1 at 2022-12-05 21:12:07 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 937)
+  Rendered layout layouts/application.html.erb (Duration: 78.9ms | Allocations: 23673)
+Completed 200 OK in 97ms (Views: 85.8ms | ActiveRecord: 0.0ms | Allocations: 26907)
+
+
+Started GET "/" for ::1 at 2022-12-05 21:28:12 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 573.3ms | Allocations: 16280)
+  Rendered layout layouts/application.html.erb (Duration: 577.0ms | Allocations: 17932)
+Completed 200 OK in 583ms (Views: 580.6ms | Allocations: 18775)
+
+
+Started GET "/" for ::1 at 2022-12-05 21:30:35 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 476.3ms | Allocations: 4612)
+  Rendered layout layouts/application.html.erb (Duration: 480.3ms | Allocations: 6220)
+Completed 200 OK in 486ms (Views: 484.4ms | Allocations: 7058)
+
+
+Started GET "/" for ::1 at 2022-12-05 21:31:40 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 482.1ms | Allocations: 4617)
+  Rendered layout layouts/application.html.erb (Duration: 485.7ms | Allocations: 6213)
+Completed 200 OK in 491ms (Views: 489.3ms | Allocations: 7022)
+
+
+Started GET "/" for ::1 at 2022-12-05 21:32:08 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 518.4ms | Allocations: 4627)
+  Rendered layout layouts/application.html.erb (Duration: 522.1ms | Allocations: 6250)
+Completed 200 OK in 528ms (Views: 525.9ms | Allocations: 7059)
+
+
+Started GET "/" for ::1 at 2022-12-05 21:35:00 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 480.0ms | Allocations: 4614)
+  Rendered layout layouts/application.html.erb (Duration: 487.2ms | Allocations: 6222)
+Completed 200 OK in 493ms (Views: 490.9ms | Allocations: 7024)
+
+
+Started GET "/" for ::1 at 2022-12-05 21:44:24 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 504.5ms | Allocations: 4680)
+  Rendered layout layouts/application.html.erb (Duration: 508.4ms | Allocations: 6296)
+Completed 200 OK in 514ms (Views: 511.9ms | Allocations: 7098)
+
+
+Started GET "/" for ::1 at 2022-12-05 21:46:27 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 483.7ms | Allocations: 4699)
+  Rendered layout layouts/application.html.erb (Duration: 487.5ms | Allocations: 6323)
+Completed 200 OK in 496ms (Views: 492.9ms | Allocations: 7125)
+
+
+Started GET "/" for ::1 at 2022-12-05 21:46:31 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 495.0ms | Allocations: 3809)
+  Rendered layout layouts/application.html.erb (Duration: 498.4ms | Allocations: 5001)
+Completed 200 OK in 500ms (Views: 499.0ms | Allocations: 5283)
+
+
+Started GET "/" for ::1 at 2022-12-05 21:46:46 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 443.0ms | Allocations: 4641)
+  Rendered layout layouts/application.html.erb (Duration: 446.7ms | Allocations: 6250)
+Completed 200 OK in 452ms (Views: 450.2ms | Allocations: 7034)
+
+
+Started GET "/" for ::1 at 2022-12-05 21:47:20 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 495.4ms | Allocations: 4573)
+  Rendered layout layouts/application.html.erb (Duration: 499.4ms | Allocations: 6182)
+Completed 200 OK in 505ms (Views: 503.0ms | Allocations: 6984)
+
+
+Started GET "/" for ::1 at 2022-12-05 21:51:13 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 490.3ms | Allocations: 3806)
+  Rendered layout layouts/application.html.erb (Duration: 494.0ms | Allocations: 5021)
+Completed 200 OK in 495ms (Views: 494.6ms | Allocations: 5302)
+
+
