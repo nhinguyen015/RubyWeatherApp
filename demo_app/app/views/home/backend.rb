@@ -44,9 +44,8 @@ class DataQuery
                 @max_temp = weather_tmax
                 @min_temp = weather_tmin
             end
-            
             writeToCSV("weather.csv", entries)
-            
+
         rescue # optionally: `rescue Exception => ex`
             puts "error occured during query"
         ensure # will always get executed
@@ -71,12 +70,45 @@ class DataQuery
     end
 
     def writeToCSV(fileName, data)
+
+        pokemonURL  =   {"Piplup" => "https://static.pokemonpets.com/images/monsters-images-800-800/393-Piplup.webp",
+                        "Blastoise" => "https://assets.pokemon.com/assets/cms2/img/pokedex/full/009_f2.png",
+                        "Charizard" => "https://static.wikia.nocookie.net/monster/images/9/95/Charizard.png/revision/latest?cb=20170708221247",
+                        "Charmander" => "https://clipart.info/images/ccovers/1528080673Charmander-pokemon-png.png",
+                        "Squirtle" => "https://i.pinimg.com/originals/68/ea/e5/68eae5110003466af047764ff88e2403.png",
+                        "Snom" => "https://th.bing.com/th/id/OIP.5E9-U1ylYqCwCI2_8s8-7AAAAA?pid=ImgDet&rs=1",
+                        "Abomasnow" => "https://cdn.discordapp.com/attachments/1014300724152246385/1049568987329081344/460-Abomasnow.png" 
+                        }
+
         File.open(fileName, 'w') do |file|
-            file.write("Date,Description,Max Temp,Min Temp")
+            file.write("Date,Description,Max Temp,Min Temp, Pokemon", "Pokemon Code")
             file.write("\n")
             for map in data
-            file.write(map[0], ",", map[1][0], ",", map[1][1], ",", map[1][2])
-            file.write("\n")
+
+                desc = map[1][0]
+                max_temp = map[1][1]
+                min_temp = map[1][2]
+                pokeCode = ""
+
+                
+                if desc.include? "Rain" or (desc.include? "rain" and desc.include? "chance")
+                    pokemon = "Piplup"
+                elsif desc.include? "Rain" or desc.include? "rain"
+                    pokemon = "Blastoise"
+                elsif (max_temp > 90)
+                    pokemon = "Charizard"  
+                elsif (max_temp > 80)
+                    pokemon = "Charmander"
+                elsif (max_temp > 70)
+                    pokemon = "Squirtle"
+                elsif (max_temp > 55)
+                    pokemon = "Snom"
+                else
+                    pokemon = "Abomasnow"
+                end
+                 
+                file.write(map[0], ",", desc, ",", max_temp, ",", min_temp, ",", pokemon, pokemonURL[pokemon])
+                file.write("\n")
             end
         end
     end

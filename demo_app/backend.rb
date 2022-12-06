@@ -70,8 +70,18 @@ class DataQuery
     end
 
     def writeToCSV(fileName, data)
+
+        pokemonURL  =   {Piplup => https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d6036eb0-c6eb-48d7-94cf-598214e40994/d73zoim-cbb5bde9-d38b-48e1-887a-b58b15240e24.png/v1/fill/w_851,h_939,strp/piplup_by_jackspade2012_d73zoim-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTEzMCIsInBhdGgiOiJcL2ZcL2Q2MDM2ZWIwLWM2ZWItNDhkNy05NGNmLTU5ODIxNGU0MDk5NFwvZDczem9pbS1jYmI1YmRlOS1kMzhiLTQ4ZTEtODg3YS1iNThiMTUyNDBlMjQucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.nrLT3_KLDRwEdRnfKsz3AK95-Wvp-8244VZqXQ5iR-I,
+                        Blastoise => https://assets.pokemon.com/assets/cms2/img/pokedex/full/009_f2.png,
+                        Charizard => https://static.wikia.nocookie.net/monster/images/9/95/Charizard.png/revision/latest?cb=20170708221247,
+                        Charmander => https://clipart.info/images/ccovers/1528080673Charmander-pokemon-png.png,
+                        Squirtle => https://i.pinimg.com/originals/68/ea/e5/68eae5110003466af047764ff88e2403.png,
+                        Snom => https://th.bing.com/th/id/OIP.5E9-U1ylYqCwCI2_8s8-7AAAAA?pid=ImgDet&rs=1,
+                        Abomasnow => https://cdn.discordapp.com/attachments/1014300724152246385/1049568987329081344/460-Abomasnow.png 
+                        }
+
         File.open(fileName, 'w') do |file|
-            file.write("Date,Description,Max Temp,Min Temp, Pokemon Code")
+            file.write("Date,Description,Max Temp,Min Temp, Pokemon, Pokemon Code")
             file.write("\n")
             for map in data
 
@@ -82,22 +92,22 @@ class DataQuery
 
                 
                 if desc.include? "Rain" or (desc.include? "rain" and desc.include? "chance")
-                    pokeCode = "Piplup"
+                    pokemon = "Piplup"
                 elsif desc.include? "Rain" or desc.include? "rain"
-                    pokeCode = "Blastoise"
+                    pokemon = "Blastoise"
                 elsif (max_temp > 90)
-                    pokeCode = "Charizard"  
+                    pokemon = "Charizard"  
                 elsif (max_temp > 80)
-                    pokeCode = "Charmander"
+                    pokemon = "Charmander"
                 elsif (max_temp > 70)
-                    pokeCode = "Squirtle"
+                    pokemon = "Squirtle"
                 elsif (max_temp > 55)
-                    pokeCode = "Snom"
+                    pokemon = "Snom"
                 else
-                    pokeCode = "Abomasnow"
+                    pokemon = "Abomasnow"
                 end
                  
-                file.write(map[0], ",", desc, ",", max_temp, ",", min_temp, ",", pokeCode)
+                file.write(map[0], ",", desc, ",", max_temp, ",", min_temp, ",", pokemon, ",", pokemonURL[pokemon])
                 file.write("\n")
             end
         end
