@@ -81,7 +81,7 @@ class DataQuery
                         }
 
         File.open(fileName, 'w') do |file|
-            file.write("Date,Description,Max Temp,Min Temp, Pokemon", "Pokemon Code")
+            file.write("Date,Description,Max Temp,Min Temp, Pokemon, Pokemon Code")
             file.write("\n")
             for map in data
 
