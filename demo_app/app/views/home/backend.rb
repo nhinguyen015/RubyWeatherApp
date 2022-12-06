@@ -18,6 +18,7 @@ class DataQuery
         entries = {}
 
         begin  # "try" block
+            @city = location
             url = URI("https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/"+location+"?key="+@key)
 
             http = Net::HTTP.new(url.host, url.port)
@@ -44,7 +45,7 @@ class DataQuery
                 @max_temp = weather_tmax
                 @min_temp = weather_tmin
             end
-            writeToCSV("weather.csv", entries)
+            writeToCSV("weather"+location+".csv", entries)
 
         rescue # optionally: `rescue Exception => ex`
             puts "error occured during query"

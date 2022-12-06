@@ -10,11 +10,11 @@
 <%demo_var.pull_data("Corona", 1234)%>
 <%demo_var.get_date%>
 
-<%temperature = 66%>
+<%temperature = demo_var.get_min%>
 <%city = nil%>
 
 <%time = Time.now.strftime("Current time is %H:%M:%S")%>
-/* <%date= Time.now.strftime("%m/%d/%Y")%> */
+<%date= Time.now.strftime("%m/%d/%Y")%> 
 <%humidity = 0%>
 
  body {
@@ -39,7 +39,6 @@
 
 .bgimg-1 {
   background-image: url("https://www.drelseys.com/wp-content/uploads/2018/09/cat-meme-blog-001.jpg");
-  margin: 0px 0px;
   height: 1000px;
 }
 
@@ -65,7 +64,7 @@
 
  .flip-card {
   background-color: green; /* make sure to change this to transparent at the end*/
-  margin: 100px 640px; 
+  margin: 0 auto;
   width: 400px;
   height: 561px;
   z-index:1;
@@ -154,6 +153,8 @@
             <p></p>
             <%if time!=nil%>
               <%=time%> 
+              <p></p>
+              <%=date%> 
             <%else%>
               Time not detected
             <%end%>

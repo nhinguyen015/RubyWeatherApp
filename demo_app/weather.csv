@@ -1,1 +1,16 @@
-Date,Description,Max Temp,Min Temp
+Date,Description,Max Temp,Min Temp, Pokemon, Pokemon Code
+2022-12-05,Partly cloudy throughout the day with early morning rain.,63.0,47.6,Blastoise, https://assets.pokemon.com/assets/cms2/img/pokedex/full/009_f2.png
+2022-12-06,Partly cloudy throughout the day.,60.9,45.6,Snom, https://th.bing.com/th/id/OIP.5E9-U1ylYqCwCI2_8s8-7AAAAA?pid=ImgDet&rs=1
+2022-12-07,Partly cloudy throughout the day.,55.1,43.6,Snom, https://th.bing.com/th/id/OIP.5E9-U1ylYqCwCI2_8s8-7AAAAA?pid=ImgDet&rs=1
+2022-12-08,Clear conditions throughout the day.,59.3,40.5,Snom, https://th.bing.com/th/id/OIP.5E9-U1ylYqCwCI2_8s8-7AAAAA?pid=ImgDet&rs=1
+2022-12-09,Becoming cloudy in the afternoon.,59.6,48.5,Snom, https://th.bing.com/th/id/OIP.5E9-U1ylYqCwCI2_8s8-7AAAAA?pid=ImgDet&rs=1
+2022-12-10,Partly cloudy throughout the day with a chance of rain.,53.1,49.4,Piplup, https://static.pokemonpets.com/images/monsters-images-800-800/393-Piplup.webp
+2022-12-11,Partly cloudy throughout the day with a chance of rain.,55.3,44.8,Piplup, https://static.pokemonpets.com/images/monsters-images-800-800/393-Piplup.webp
+2022-12-12,Partly cloudy throughout the day.,52.8,43.6,Abomasnow, https://cdn.discordapp.com/attachments/1014300724152246385/1049568987329081344/460-Abomasnow.png
+2022-12-13,Clearing in the afternoon.,55.5,46.5,Snom, https://th.bing.com/th/id/OIP.5E9-U1ylYqCwCI2_8s8-7AAAAA?pid=ImgDet&rs=1
+2022-12-14,Partly cloudy throughout the day.,59.1,47.2,Snom, https://th.bing.com/th/id/OIP.5E9-U1ylYqCwCI2_8s8-7AAAAA?pid=ImgDet&rs=1
+2022-12-15,Partly cloudy throughout the day.,53.8,49.7,Abomasnow, https://cdn.discordapp.com/attachments/1014300724152246385/1049568987329081344/460-Abomasnow.png
+2022-12-16,Clear conditions throughout the day.,58.2,47.2,Snom, https://th.bing.com/th/id/OIP.5E9-U1ylYqCwCI2_8s8-7AAAAA?pid=ImgDet&rs=1
+2022-12-17,Clear conditions throughout the day.,60.7,51.2,Snom, https://th.bing.com/th/id/OIP.5E9-U1ylYqCwCI2_8s8-7AAAAA?pid=ImgDet&rs=1
+2022-12-18,Clear conditions throughout the day.,65.7,52.4,Snom, https://th.bing.com/th/id/OIP.5E9-U1ylYqCwCI2_8s8-7AAAAA?pid=ImgDet&rs=1
+2022-12-19,Clear conditions throughout the day.,63.1,49.9,Snom, https://th.bing.com/th/id/OIP.5E9-U1ylYqCwCI2_8s8-7AAAAA?pid=ImgDet&rs=1
