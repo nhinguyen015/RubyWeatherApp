@@ -71,10 +71,33 @@ class DataQuery
 
     def writeToCSV(fileName, data)
         File.open(fileName, 'w') do |file|
-            file.write("Date,Description,Max Temp,Min Temp")
+            file.write("Date,Description,Max Temp,Min Temp, Pokemon Code")
             file.write("\n")
             for map in data
-                file.write(map[0], ",", map[1][0], ",", map[1][1], ",", map[1][2])
+
+                desc = map[1][0]
+                max_temp = map[1][1]
+                min_temp = map[1][2]
+                pokeCode = ""
+
+                
+                if desc.include? "Rain" or (desc.include? "rain" and desc.include? "chance")
+                    pokeCode = "Piplup"
+                elsif desc.include? "Rain" or desc.include? "rain"
+                    pokeCode = "Piplup"
+                elsif (max_temp > 90)
+                    pokeCode = "Charizard"  
+                elsif (max_temp > 80)
+                    pokeCode = "Charmander"
+                elsif (max_temp > 70)
+                    pokeCode = "Squirtle"
+                elsif (max_temp > 55)
+                    pokeCode = "Snom"
+                else
+                    pokeCode = "Abomasnow"
+                end
+                 
+                file.write(map[0], ",", desc, ",", max_temp, ",", min_temp, ",", pokeCode)
                 file.write("\n")
             end
         end
