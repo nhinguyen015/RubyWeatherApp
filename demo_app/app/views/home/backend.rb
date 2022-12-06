@@ -51,8 +51,9 @@ class DataQuery
             end
             writeToCSV("weather"+location+".csv", entries)
 
-        rescue # optionally: `rescue Exception => ex`
+        rescue Exception => ex
             puts "error occured during query"
+            puts e
         ensure # will always get executed
             #puts 'Always gets executed.'
         end

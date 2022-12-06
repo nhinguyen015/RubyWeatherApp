@@ -4,7 +4,7 @@ require_relative "frontend.rb"
 
 def run_app()
     query = DataQuery.new
-    query.pull_data("Pomona", date)
+    query.pull_data("Pomona", "12/6/2022")
 
     puts query.get_date
     puts query.get_desc
