@@ -14,6 +14,9 @@ class DataQuery
     end
 
     def pull_data(location, date)
+
+        entries = {}
+
         begin  # "try" block
             url = URI("https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/"+location+"?key="+@key)
 
@@ -33,12 +36,17 @@ class DataQuery
                 weather_desc = days["description"]
                 weather_tmax = days["tempmax"]
                 weather_tmin = days["tempmin"]
-         
+
+                entries[weather_date] = [weather_desc, weather_tmax, weather_tmin]
+                
                 @date = weather_date
                 @desc = weather_desc
                 @max_temp = weather_tmax
                 @min_temp = weather_tmin
             end
+
+            writeToCSV("weather.csv", entries)
+
         rescue # optionally: `rescue Exception => ex`
             puts "error occured during query"
         ensure # will always get executed
@@ -60,5 +68,17 @@ class DataQuery
 
     def get_min()
         return @min_temp
+    end
+
+    def writeToCSV(fileName, data)
+        File.open(fileName, 'w') do |file|
+            file.write("Date,Description,Max Temp,Min Temp")
+            file.write("\n")
+            for key in data.keys
+                #print(key)
+                file.write(key + "," + data[key][0] + "," + data[key][0] + "," + data[key][0])
+                file.write("\n")
+            end
+        end
     end
 end
