@@ -14,4 +14,4 @@ demo_app->app->views->home
 There the backend.rb and index.html.erb files are located. These files are 
 the majority of the code that makes our app possible
 
-
+NOTE: if the temperature values no longer return, it's because Weather API pulls are no longer free for the future requests. Thank you for understanding!
